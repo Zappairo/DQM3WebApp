@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Titre principal
-st.title("🐉 Dragon Quest Monsters - Guide")
+st.title("Dragon Quest Monsters - Guide")
 st.markdown("---")
 
 # Navigation
@@ -21,7 +21,7 @@ pages = {
     "🏠 Accueil": "accueil",
     "🔍 Recherche de Monstres": "recherche_monstres", 
     "📊 Base de Données": "base_donnees",
-    "⚔️ Synthèse": "synthese"
+    "🧬 Synthèse": "synthese"
 }
 
 # Sidebar pour la navigation

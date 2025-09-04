@@ -45,26 +45,12 @@ def show():
     ---
     
     ### Fonctionnalités:
-    - Interface responsive
     - Images des monstres
-    - Données complètes
+    - Données en WIP presque complète
     - Recherche rapide
     - Informations de synthèse
     
     """)
     
-    # Statistiques rapides
-    st.markdown("### Statistiques rapides")
-    col1, col2, col3, col4 = st.columns(4)
-    
-    with col1:
-        st.metric("Monstres", "500+", delta="Complet")
-    with col2:
-        st.metric("Familles", "8", delta="Toutes")
-    with col3:
-        st.metric("Compétences", "200+", delta="Détaillées")
-    with col4:
-        st.metric("Traits", "100+", delta="Décrits")
-    
     st.markdown("---")
-    st.markdown("*Créé pour les fans de Dragon Quest Monsters*")
+    st.markdown("*Créé par G.B pour les fans de Dragon Quest Monsters*")
