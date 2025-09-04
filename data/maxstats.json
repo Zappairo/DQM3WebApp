@@ -1,0 +1,5788 @@
+[
+  {
+    "name": "Gem Slime",
+    "stats": {
+      "hp": 840,
+      "mp": 750,
+      "attack": 430,
+      "defense": 1200,
+      "agility": 850,
+      "wisdom": 1030
+    }
+  },
+  {
+    "name": "Cetacean Sorcerer",
+    "stats": {
+      "hp": 1380,
+      "mp": 740,
+      "attack": 360,
+      "defense": 320,
+      "agility": 400,
+      "wisdom": 800
+    }
+  },
+  {
+    "name": "Rabid Rector",
+    "stats": {
+      "hp": 1340,
+      "mp": 700,
+      "attack": 360,
+      "defense": 310,
+      "agility": 520,
+      "wisdom": 770
+    }
+  },
+  {
+    "name": "Leafy Larrikin",
+    "stats": {
+      "hp": 1350,
+      "mp": 660,
+      "attack": 520,
+      "defense": 330,
+      "agility": 560,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Jester Slime",
+    "stats": {
+      "hp": 1300,
+      "mp": 660,
+      "attack": 400,
+      "defense": 410,
+      "agility": 570,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "The Time Being",
+    "stats": {
+      "hp": 1340,
+      "mp": 650,
+      "attack": 380,
+      "defense": 350,
+      "agility": 480,
+      "wisdom": 820
+    }
+  },
+  {
+    "name": "Angel Slime",
+    "stats": {
+      "hp": 1320,
+      "mp": 650,
+      "attack": 350,
+      "defense": 420,
+      "agility": 590,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Queen Slime",
+    "stats": {
+      "hp": 1360,
+      "mp": 650,
+      "attack": 390,
+      "defense": 350,
+      "agility": 440,
+      "wisdom": 800
+    }
+  },
+  {
+    "name": "Gremlin",
+    "stats": {
+      "hp": 1360,
+      "mp": 650,
+      "attack": 450,
+      "defense": 270,
+      "agility": 500,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Ghost",
+    "stats": {
+      "hp": 1340,
+      "mp": 640,
+      "attack": 470,
+      "defense": 270,
+      "agility": 560,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Bag O' Laughs",
+    "stats": {
+      "hp": 1340,
+      "mp": 630,
+      "attack": 490,
+      "defense": 510,
+      "agility": 370,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Lips",
+    "stats": {
+      "hp": 1420,
+      "mp": 630,
+      "attack": 490,
+      "defense": 510,
+      "agility": 370,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Ornery Onion",
+    "stats": {
+      "hp": 1390,
+      "mp": 620,
+      "attack": 470,
+      "defense": 460,
+      "agility": 330,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Skellyfish",
+    "stats": {
+      "hp": 1360,
+      "mp": 620,
+      "attack": 550,
+      "defense": 270,
+      "agility": 430,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Wight King",
+    "stats": {
+      "hp": 1310,
+      "mp": 620,
+      "attack": 320,
+      "defense": 500,
+      "agility": 610,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Bubble Slime",
+    "stats": {
+      "hp": 1400,
+      "mp": 620,
+      "attack": 500,
+      "defense": 490,
+      "agility": 420,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Woebergine",
+    "stats": {
+      "hp": 1350,
+      "mp": 610,
+      "attack": 490,
+      "defense": 440,
+      "agility": 460,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Metal Slime",
+    "stats": {
+      "hp": 740,
+      "mp": 610,
+      "attack": 610,
+      "defense": 1200,
+      "agility": 1110,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Cureslime",
+    "stats": {
+      "hp": 1370,
+      "mp": 610,
+      "attack": 360,
+      "defense": 370,
+      "agility": 530,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Croc-A-Bugle-Doo",
+    "stats": {
+      "hp": 1390,
+      "mp": 610,
+      "attack": 580,
+      "defense": 270,
+      "agility": 460,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "The Darkling",
+    "stats": {
+      "hp": 1240,
+      "mp": 600,
+      "attack": 680,
+      "defense": 330,
+      "agility": 510,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Healslime",
+    "stats": {
+      "hp": 1320,
+      "mp": 600,
+      "attack": 350,
+      "defense": 410,
+      "agility": 630,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Box Slime",
+    "stats": {
+      "hp": 1370,
+      "mp": 600,
+      "attack": 470,
+      "defense": 670,
+      "agility": 280,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Saltwater Stallion",
+    "stats": {
+      "hp": 1350,
+      "mp": 600,
+      "attack": 490,
+      "defense": 400,
+      "agility": 550,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Snipevine",
+    "stats": {
+      "hp": 1350,
+      "mp": 590,
+      "attack": 450,
+      "defense": 610,
+      "agility": 360,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Bishop Ladja",
+    "stats": {
+      "hp": 1350,
+      "mp": 590,
+      "attack": 470,
+      "defense": 380,
+      "agility": 390,
+      "wisdom": 810
+    }
+  },
+  {
+    "name": "Scruffy",
+    "stats": {
+      "hp": 1310,
+      "mp": 590,
+      "attack": 490,
+      "defense": 330,
+      "agility": 560,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Dark Slime",
+    "stats": {
+      "hp": 1340,
+      "mp": 590,
+      "attack": 400,
+      "defense": 420,
+      "agility": 530,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Ewwnicorn",
+    "stats": {
+      "hp": 1390,
+      "mp": 580,
+      "attack": 330,
+      "defense": 370,
+      "agility": 520,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Shogum",
+    "stats": {
+      "hp": 1260,
+      "mp": 580,
+      "attack": 660,
+      "defense": 450,
+      "agility": 460,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "See Urchin",
+    "stats": {
+      "hp": 1310,
+      "mp": 580,
+      "attack": 360,
+      "defense": 360,
+      "agility": 690,
+      "wisdom": 620
+    }
+  },
+  {
+    "name": "Cyclown",
+    "stats": {
+      "hp": 1310,
+      "mp": 570,
+      "attack": 590,
+      "defense": 480,
+      "agility": 500,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Tufty Tot",
+    "stats": {
+      "hp": 1310,
+      "mp": 570,
+      "attack": 470,
+      "defense": 360,
+      "agility": 540,
+      "wisdom": 710
+    }
+  },
+  {
+    "name": "Feralball",
+    "stats": {
+      "hp": 1420,
+      "mp": 570,
+      "attack": 470,
+      "defense": 360,
+      "agility": 370,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Baramos",
+    "stats": {
+      "hp": 1360,
+      "mp": 570,
+      "attack": 410,
+      "defense": 370,
+      "agility": 460,
+      "wisdom": 780
+    }
+  },
+  {
+    "name": "Vegandragora",
+    "stats": {
+      "hp": 1360,
+      "mp": 570,
+      "attack": 630,
+      "defense": 350,
+      "agility": 450,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Mangleclaw",
+    "stats": {
+      "hp": 1320,
+      "mp": 560,
+      "attack": 520,
+      "defense": 270,
+      "agility": 580,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Green Bogey",
+    "stats": {
+      "hp": 1280,
+      "mp": 560,
+      "attack": 580,
+      "defense": 430,
+      "agility": 500,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Ham Shamwitch",
+    "stats": {
+      "hp": 1390,
+      "mp": 560,
+      "attack": 440,
+      "defense": 460,
+      "agility": 435,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Krystalinda",
+    "stats": {
+      "hp": 1280,
+      "mp": 560,
+      "attack": 490,
+      "defense": 450,
+      "agility": 510,
+      "wisdom": 770
+    }
+  },
+  {
+    "name": "Slimecicle",
+    "stats": {
+      "hp": 1330,
+      "mp": 560,
+      "attack": 510,
+      "defense": 580,
+      "agility": 410,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Liquid Metal Slime",
+    "stats": {
+      "hp": 830,
+      "mp": 560,
+      "attack": 550,
+      "defense": 1200,
+      "agility": 1000,
+      "wisdom": 720
+    }
+  },
+  {
+    "name": "Jinkster",
+    "stats": {
+      "hp": 1330,
+      "mp": 560,
+      "attack": 490,
+      "defense": 350,
+      "agility": 530,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Psaro's Pawn",
+    "stats": {
+      "hp": 1310,
+      "mp": 550,
+      "attack": 520,
+      "defense": 550,
+      "agility": 460,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Bludgerigar",
+    "stats": {
+      "hp": 1310,
+      "mp": 550,
+      "attack": 590,
+      "defense": 340,
+      "agility": 550,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Odd Cob",
+    "stats": {
+      "hp": 1280,
+      "mp": 550,
+      "attack": 610,
+      "defense": 380,
+      "agility": 610,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Muddy Hand",
+    "stats": {
+      "hp": 1420,
+      "mp": 550,
+      "attack": 540,
+      "defense": 400,
+      "agility": 410,
+      "wisdom": 370
+    }
+  },
+  {
+    "name": "Zamtasm",
+    "stats": {
+      "hp": 1320,
+      "mp": 550,
+      "attack": 470,
+      "defense": 350,
+      "agility": 530,
+      "wisdom": 720
+    }
+  },
+  {
+    "name": "Fluffy",
+    "stats": {
+      "hp": 1360,
+      "mp": 550,
+      "attack": 530,
+      "defense": 370,
+      "agility": 540,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Sprite Bulb",
+    "stats": {
+      "hp": 1280,
+      "mp": 550,
+      "attack": 510,
+      "defense": 370,
+      "agility": 600,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Whizzard",
+    "stats": {
+      "hp": 1310,
+      "mp": 550,
+      "attack": 520,
+      "defense": 550,
+      "agility": 460,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "King Kelp",
+    "stats": {
+      "hp": 1260,
+      "mp": 540,
+      "attack": 580,
+      "defense": 520,
+      "agility": 500,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Chocolate Whisp",
+    "stats": {
+      "hp": 1350,
+      "mp": 540,
+      "attack": 490,
+      "defense": 350,
+      "agility": 510,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Buddy Slime",
+    "stats": {
+      "hp": 1340,
+      "mp": 540,
+      "attack": 550,
+      "defense": 240,
+      "agility": 490,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Sacksquatch",
+    "stats": {
+      "hp": 1390,
+      "mp": 540,
+      "attack": 440,
+      "defense": 540,
+      "agility": 430,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Saccharine Sacksquatch",
+    "stats": {
+      "hp": 1410,
+      "mp": 540,
+      "attack": 420,
+      "defense": 530,
+      "agility": 410,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Armoured Wartoise",
+    "stats": {
+      "hp": 1370,
+      "mp": 540,
+      "attack": 410,
+      "defense": 800,
+      "agility": 300,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Mad Mollusk",
+    "stats": {
+      "hp": 1400,
+      "mp": 530,
+      "attack": 580,
+      "defense": 360,
+      "agility": 410,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Gander",
+    "stats": {
+      "hp": 1340,
+      "mp": 530,
+      "attack": 540,
+      "defense": 500,
+      "agility": 490,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Drackyma",
+    "stats": {
+      "hp": 1260,
+      "mp": 530,
+      "attack": 520,
+      "defense": 500,
+      "agility": 570,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Morphean Mushroom",
+    "stats": {
+      "hp": 1360,
+      "mp": 530,
+      "attack": 500,
+      "defense": 510,
+      "agility": 470,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Soy Soldier",
+    "stats": {
+      "hp": 1350,
+      "mp": 530,
+      "attack": 610,
+      "defense": 330,
+      "agility": 520,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Mudraker",
+    "stats": {
+      "hp": 1370,
+      "mp": 530,
+      "attack": 600,
+      "defense": 530,
+      "agility": 310,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Fromage Fey",
+    "stats": {
+      "hp": 1370,
+      "mp": 530,
+      "attack": 530,
+      "defense": 350,
+      "agility": 450,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Blue Moon",
+    "stats": {
+      "hp": 1340,
+      "mp": 530,
+      "attack": 540,
+      "defense": 520,
+      "agility": 390,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Face Invader",
+    "stats": {
+      "hp": 1350,
+      "mp": 530,
+      "attack": 420,
+      "defense": 460,
+      "agility": 500,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Sugar Baddie",
+    "stats": {
+      "hp": 1350,
+      "mp": 530,
+      "attack": 610,
+      "defense": 340,
+      "agility": 420,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Khalamari Kid",
+    "stats": {
+      "hp": 1400,
+      "mp": 520,
+      "attack": 520,
+      "defense": 460,
+      "agility": 400,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Firespirit",
+    "stats": {
+      "hp": 1390,
+      "mp": 520,
+      "attack": 350,
+      "defense": 550,
+      "agility": 470,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Cursed Crooner",
+    "stats": {
+      "hp": 1250,
+      "mp": 520,
+      "attack": 630,
+      "defense": 620,
+      "agility": 420,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Bone Idol",
+    "stats": {
+      "hp": 1280,
+      "mp": 520,
+      "attack": 520,
+      "defense": 440,
+      "agility": 570,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Shell Slime",
+    "stats": {
+      "hp": 1430,
+      "mp": 520,
+      "attack": 380,
+      "defense": 840,
+      "agility": 280,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Mogus",
+    "stats": {
+      "hp": 1290,
+      "mp": 520,
+      "attack": 500,
+      "defense": 510,
+      "agility": 510,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Zoma",
+    "stats": {
+      "hp": 1270,
+      "mp": 520,
+      "attack": 500,
+      "defense": 600,
+      "agility": 470,
+      "wisdom": 760
+    }
+  },
+  {
+    "name": "Tortured Soul",
+    "stats": {
+      "hp": 1370,
+      "mp": 510,
+      "attack": 320,
+      "defense": 520,
+      "agility": 540,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Treevil",
+    "stats": {
+      "hp": 1340,
+      "mp": 510,
+      "attack": 490,
+      "defense": 590,
+      "agility": 390,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Dora-In-Grey",
+    "stats": {
+      "hp": 1250,
+      "mp": 510,
+      "attack": 610,
+      "defense": 640,
+      "agility": 410,
+      "wisdom": 710
+    }
+  },
+  {
+    "name": "King Jester Slime",
+    "stats": {
+      "hp": 1270,
+      "mp": 510,
+      "attack": 530,
+      "defense": 430,
+      "agility": 570,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Metal King Slime",
+    "stats": {
+      "hp": 890,
+      "mp": 510,
+      "attack": 380,
+      "defense": 1200,
+      "agility": 1200,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Bongo Fandango",
+    "stats": {
+      "hp": 1370,
+      "mp": 510,
+      "attack": 590,
+      "defense": 500,
+      "agility": 420,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Aamon",
+    "stats": {
+      "hp": 1260,
+      "mp": 500,
+      "attack": 410,
+      "defense": 550,
+      "agility": 610,
+      "wisdom": 770
+    }
+  },
+  {
+    "name": "Putrefido",
+    "stats": {
+      "hp": 1380,
+      "mp": 500,
+      "attack": 620,
+      "defense": 400,
+      "agility": 470,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Prism Peacock",
+    "stats": {
+      "hp": 1370,
+      "mp": 500,
+      "attack": 590,
+      "defense": 410,
+      "agility": 490,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Mortamor",
+    "stats": {
+      "hp": 1230,
+      "mp": 500,
+      "attack": 580,
+      "defense": 500,
+      "agility": 530,
+      "wisdom": 760
+    }
+  },
+  {
+    "name": "Pocus Poppet",
+    "stats": {
+      "hp": 1320,
+      "mp": 500,
+      "attack": 500,
+      "defense": 530,
+      "agility": 490,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Flutter Slime",
+    "stats": {
+      "hp": 1320,
+      "mp": 500,
+      "attack": 510,
+      "defense": 330,
+      "agility": 610,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Diamond Slime",
+    "stats": {
+      "hp": 1300,
+      "mp": 500,
+      "attack": 500,
+      "defense": 740,
+      "agility": 380,
+      "wisdom": 700
+    }
+  },
+  {
+    "name": "Graven Idol",
+    "stats": {
+      "hp": 1310,
+      "mp": 500,
+      "attack": 460,
+      "defense": 630,
+      "agility": 450,
+      "wisdom": 710
+    }
+  },
+  {
+    "name": "Teeny Sanguini",
+    "stats": {
+      "hp": 1300,
+      "mp": 500,
+      "attack": 440,
+      "defense": 470,
+      "agility": 680,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Avarith",
+    "stats": {
+      "hp": 1290,
+      "mp": 500,
+      "attack": 570,
+      "defense": 640,
+      "agility": 390,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "The Dragonlord",
+    "stats": {
+      "hp": 1340,
+      "mp": 490,
+      "attack": 500,
+      "defense": 440,
+      "agility": 490,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Minidemon",
+    "stats": {
+      "hp": 1300,
+      "mp": 490,
+      "attack": 480,
+      "defense": 470,
+      "agility": 550,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Lieutenant Hootingham-Gore",
+    "stats": {
+      "hp": 1320,
+      "mp": 490,
+      "attack": 390,
+      "defense": 530,
+      "agility": 560,
+      "wisdom": 700
+    }
+  },
+  {
+    "name": "Drooling Ghoul",
+    "stats": {
+      "hp": 1290,
+      "mp": 490,
+      "attack": 540,
+      "defense": 610,
+      "agility": 390,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Meowgician",
+    "stats": {
+      "hp": 1410,
+      "mp": 490,
+      "attack": 350,
+      "defense": 390,
+      "agility": 520,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Cross Eye",
+    "stats": {
+      "hp": 1380,
+      "mp": 490,
+      "attack": 620,
+      "defense": 540,
+      "agility": 300,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Hargon",
+    "stats": {
+      "hp": 1370,
+      "mp": 490,
+      "attack": 440,
+      "defense": 480,
+      "agility": 440,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Fright Bulb",
+    "stats": {
+      "hp": 1360,
+      "mp": 490,
+      "attack": 510,
+      "defense": 440,
+      "agility": 510,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Mouldy Slime",
+    "stats": {
+      "hp": 1390,
+      "mp": 490,
+      "attack": 520,
+      "defense": 470,
+      "agility": 410,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Mecha-Mynah",
+    "stats": {
+      "hp": 1390,
+      "mp": 490,
+      "attack": 470,
+      "defense": 730,
+      "agility": 410,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Goodybag",
+    "stats": {
+      "hp": 1290,
+      "mp": 490,
+      "attack": 470,
+      "defense": 620,
+      "agility": 530,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "King Cureslime",
+    "stats": {
+      "hp": 1410,
+      "mp": 490,
+      "attack": 350,
+      "defense": 570,
+      "agility": 420,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Small Fry",
+    "stats": {
+      "hp": 1430,
+      "mp": 490,
+      "attack": 540,
+      "defense": 350,
+      "agility": 470,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Buntzenberner",
+    "stats": {
+      "hp": 1400,
+      "mp": 490,
+      "attack": 470,
+      "defense": 300,
+      "agility": 420,
+      "wisdom": 730
+    }
+  },
+  {
+    "name": "Lump Wizard",
+    "stats": {
+      "hp": 1320,
+      "mp": 490,
+      "attack": 410,
+      "defense": 590,
+      "agility": 520,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Succubat",
+    "stats": {
+      "hp": 1310,
+      "mp": 490,
+      "attack": 510,
+      "defense": 390,
+      "agility": 600,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Lump Shaman",
+    "stats": {
+      "hp": 1350,
+      "mp": 490,
+      "attack": 470,
+      "defense": 460,
+      "agility": 460,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Hooper Trooper",
+    "stats": {
+      "hp": 1340,
+      "mp": 490,
+      "attack": 530,
+      "defense": 410,
+      "agility": 460,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Wrecktor",
+    "stats": {
+      "hp": 1370,
+      "mp": 480,
+      "attack": 470,
+      "defense": 420,
+      "agility": 450,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Bagworm",
+    "stats": {
+      "hp": 1340,
+      "mp": 480,
+      "attack": 560,
+      "defense": 590,
+      "agility": 400,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Scourgette",
+    "stats": {
+      "hp": 1340,
+      "mp": 480,
+      "attack": 500,
+      "defense": 400,
+      "agility": 470,
+      "wisdom": 720
+    }
+  },
+  {
+    "name": "Frightful Conductor",
+    "stats": {
+      "hp": 1320,
+      "mp": 480,
+      "attack": 460,
+      "defense": 520,
+      "agility": 510,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Candy Cat",
+    "stats": {
+      "hp": 1350,
+      "mp": 480,
+      "attack": 560,
+      "defense": 510,
+      "agility": 450,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Hellspawn",
+    "stats": {
+      "hp": 1290,
+      "mp": 480,
+      "attack": 420,
+      "defense": 690,
+      "agility": 540,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Wing Slime",
+    "stats": {
+      "hp": 1320,
+      "mp": 480,
+      "attack": 540,
+      "defense": 330,
+      "agility": 600,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Snowmangler",
+    "stats": {
+      "hp": 1370,
+      "mp": 480,
+      "attack": 500,
+      "defense": 580,
+      "agility": 390,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Spitnik",
+    "stats": {
+      "hp": 1340,
+      "mp": 480,
+      "attack": 590,
+      "defense": 570,
+      "agility": 490,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Fromage Fray",
+    "stats": {
+      "hp": 1370,
+      "mp": 480,
+      "attack": 500,
+      "defense": 400,
+      "agility": 480,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Cococoa Blobelisk",
+    "stats": {
+      "hp": 1360,
+      "mp": 480,
+      "attack": 470,
+      "defense": 360,
+      "agility": 600,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "King Bubble Slime",
+    "stats": {
+      "hp": 1450,
+      "mp": 480,
+      "attack": 470,
+      "defense": 500,
+      "agility": 270,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Blizzybody",
+    "stats": {
+      "hp": 1370,
+      "mp": 480,
+      "attack": 510,
+      "defense": 440,
+      "agility": 550,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Gryphon",
+    "stats": {
+      "hp": 1350,
+      "mp": 470,
+      "attack": 600,
+      "defense": 490,
+      "agility": 460,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Hyperanemon",
+    "stats": {
+      "hp": 1340,
+      "mp": 470,
+      "attack": 520,
+      "defense": 390,
+      "agility": 520,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Soulspawn",
+    "stats": {
+      "hp": 1300,
+      "mp": 470,
+      "attack": 410,
+      "defense": 610,
+      "agility": 580,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Orgodemir",
+    "stats": {
+      "hp": 1240,
+      "mp": 470,
+      "attack": 560,
+      "defense": 540,
+      "agility": 490,
+      "wisdom": 830
+    }
+  },
+  {
+    "name": "Calypso King",
+    "stats": {
+      "hp": 1360,
+      "mp": 470,
+      "attack": 630,
+      "defense": 610,
+      "agility": 410,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Malroth",
+    "stats": {
+      "hp": 1300,
+      "mp": 470,
+      "attack": 560,
+      "defense": 500,
+      "agility": 410,
+      "wisdom": 790
+    }
+  },
+  {
+    "name": "Jasper Unbound",
+    "stats": {
+      "hp": 1330,
+      "mp": 470,
+      "attack": 510,
+      "defense": 530,
+      "agility": 460,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "The Almighty",
+    "stats": {
+      "hp": 1330,
+      "mp": 470,
+      "attack": 520,
+      "defense": 470,
+      "agility": 470,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Snail Slime",
+    "stats": {
+      "hp": 1410,
+      "mp": 470,
+      "attack": 460,
+      "defense": 820,
+      "agility": 210,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Avian Android",
+    "stats": {
+      "hp": 1310,
+      "mp": 470,
+      "attack": 580,
+      "defense": 430,
+      "agility": 630,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Shadow Slime",
+    "stats": {
+      "hp": 1290,
+      "mp": 470,
+      "attack": 560,
+      "defense": 450,
+      "agility": 600,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Cruelcumber",
+    "stats": {
+      "hp": 1320,
+      "mp": 460,
+      "attack": 570,
+      "defense": 560,
+      "agility": 490,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Mortoad",
+    "stats": {
+      "hp": 1330,
+      "mp": 460,
+      "attack": 550,
+      "defense": 530,
+      "agility": 500,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Stump Chump",
+    "stats": {
+      "hp": 1360,
+      "mp": 460,
+      "attack": 580,
+      "defense": 590,
+      "agility": 460,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Iron Maiden",
+    "stats": {
+      "hp": 1280,
+      "mp": 460,
+      "attack": 550,
+      "defense": 690,
+      "agility": 470,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Napir",
+    "stats": {
+      "hp": 1390,
+      "mp": 460,
+      "attack": 460,
+      "defense": 400,
+      "agility": 480,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Robbin' 'Ood",
+    "stats": {
+      "hp": 1320,
+      "mp": 460,
+      "attack": 610,
+      "defense": 510,
+      "agility": 520,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Don Mole",
+    "stats": {
+      "hp": 1360,
+      "mp": 460,
+      "attack": 590,
+      "defense": 610,
+      "agility": 440,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Drake Slime",
+    "stats": {
+      "hp": 1380,
+      "mp": 460,
+      "attack": 540,
+      "defense": 380,
+      "agility": 550,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Mottle Slime",
+    "stats": {
+      "hp": 1420,
+      "mp": 460,
+      "attack": 460,
+      "defense": 450,
+      "agility": 510,
+      "wisdom": 370
+    }
+  },
+  {
+    "name": "Mud Mannequin",
+    "stats": {
+      "hp": 1370,
+      "mp": 460,
+      "attack": 610,
+      "defense": 520,
+      "agility": 480,
+      "wisdom": 260
+    }
+  },
+  {
+    "name": "Lampling",
+    "stats": {
+      "hp": 1360,
+      "mp": 460,
+      "attack": 520,
+      "defense": 590,
+      "agility": 430,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Dark King Slime",
+    "stats": {
+      "hp": 1270,
+      "mp": 460,
+      "attack": 560,
+      "defense": 430,
+      "agility": 530,
+      "wisdom": 750
+    }
+  },
+  {
+    "name": "Bongo Drongo",
+    "stats": {
+      "hp": 1380,
+      "mp": 460,
+      "attack": 600,
+      "defense": 450,
+      "agility": 410,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Beshemoth Slime",
+    "stats": {
+      "hp": 1460,
+      "mp": 460,
+      "attack": 590,
+      "defense": 580,
+      "agility": 250,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Crème Caraslime",
+    "stats": {
+      "hp": 1440,
+      "mp": 460,
+      "attack": 630,
+      "defense": 410,
+      "agility": 290,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Mottle She-Slime",
+    "stats": {
+      "hp": 1460,
+      "mp": 460,
+      "attack": 410,
+      "defense": 270,
+      "agility": 600,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Bag O' Sweets",
+    "stats": {
+      "hp": 1300,
+      "mp": 460,
+      "attack": 490,
+      "defense": 430,
+      "agility": 630,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Bomboulder",
+    "stats": {
+      "hp": 1390,
+      "mp": 460,
+      "attack": 440,
+      "defense": 640,
+      "agility": 400,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Admirer",
+    "stats": {
+      "hp": 1420,
+      "mp": 460,
+      "attack": 380,
+      "defense": 330,
+      "agility": 580,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Bodkin Archer",
+    "stats": {
+      "hp": 1410,
+      "mp": 460,
+      "attack": 520,
+      "defense": 500,
+      "agility": 460,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Dancing Devil",
+    "stats": {
+      "hp": 1350,
+      "mp": 460,
+      "attack": 410,
+      "defense": 560,
+      "agility": 540,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Silvapithecus",
+    "stats": {
+      "hp": 1340,
+      "mp": 450,
+      "attack": 440,
+      "defense": 560,
+      "agility": 500,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Togre",
+    "stats": {
+      "hp": 1370,
+      "mp": 450,
+      "attack": 590,
+      "defense": 380,
+      "agility": 400,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Rockin' Rockhopper",
+    "stats": {
+      "hp": 1190,
+      "mp": 450,
+      "attack": 560,
+      "defense": 510,
+      "agility": 730,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Cosmic Chimaera",
+    "stats": {
+      "hp": 1310,
+      "mp": 450,
+      "attack": 570,
+      "defense": 430,
+      "agility": 560,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Phoenix",
+    "stats": {
+      "hp": 1320,
+      "mp": 450,
+      "attack": 470,
+      "defense": 370,
+      "agility": 660,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Antguzzler",
+    "stats": {
+      "hp": 1380,
+      "mp": 450,
+      "attack": 610,
+      "defense": 380,
+      "agility": 440,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Guaardvark",
+    "stats": {
+      "hp": 1360,
+      "mp": 450,
+      "attack": 630,
+      "defense": 360,
+      "agility": 450,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Rhinoceraxe",
+    "stats": {
+      "hp": 1320,
+      "mp": 450,
+      "attack": 590,
+      "defense": 630,
+      "agility": 500,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Dhoulmagus",
+    "stats": {
+      "hp": 1300,
+      "mp": 450,
+      "attack": 550,
+      "defense": 530,
+      "agility": 470,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Goonache Goodie",
+    "stats": {
+      "hp": 1390,
+      "mp": 450,
+      "attack": 560,
+      "defense": 420,
+      "agility": 420,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Spiny Slime",
+    "stats": {
+      "hp": 1360,
+      "mp": 450,
+      "attack": 610,
+      "defense": 540,
+      "agility": 420,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Dragon Slime",
+    "stats": {
+      "hp": 1370,
+      "mp": 450,
+      "attack": 550,
+      "defense": 420,
+      "agility": 530,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Pasty Pastry",
+    "stats": {
+      "hp": 1390,
+      "mp": 450,
+      "attack": 510,
+      "defense": 400,
+      "agility": 420,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Shivery Shrubbery",
+    "stats": {
+      "hp": 1290,
+      "mp": 450,
+      "attack": 530,
+      "defense": 410,
+      "agility": 590,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Grandpa Slime",
+    "stats": {
+      "hp": 1270,
+      "mp": 450,
+      "attack": 500,
+      "defense": 630,
+      "agility": 480,
+      "wisdom": 780
+    }
+  },
+  {
+    "name": "Bag O' Tricks",
+    "stats": {
+      "hp": 1330,
+      "mp": 450,
+      "attack": 590,
+      "defense": 420,
+      "agility": 510,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Flamethrower",
+    "stats": {
+      "hp": 1360,
+      "mp": 450,
+      "attack": 540,
+      "defense": 380,
+      "agility": 500,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Capsichum",
+    "stats": {
+      "hp": 1360,
+      "mp": 440,
+      "attack": 560,
+      "defense": 480,
+      "agility": 480,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Mitey Oak",
+    "stats": {
+      "hp": 1410,
+      "mp": 440,
+      "attack": 590,
+      "defense": 530,
+      "agility": 350,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Octopot",
+    "stats": {
+      "hp": 1370,
+      "mp": 440,
+      "attack": 520,
+      "defense": 660,
+      "agility": 320,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Shadow",
+    "stats": {
+      "hp": 1270,
+      "mp": 440,
+      "attack": 480,
+      "defense": 470,
+      "agility": 670,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Hellbound Horror",
+    "stats": {
+      "hp": 1320,
+      "mp": 440,
+      "attack": 550,
+      "defense": 430,
+      "agility": 520,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Phantom Swordsman",
+    "stats": {
+      "hp": 1300,
+      "mp": 440,
+      "attack": 600,
+      "defense": 480,
+      "agility": 560,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Hell Gladiator",
+    "stats": {
+      "hp": 1310,
+      "mp": 440,
+      "attack": 600,
+      "defense": 390,
+      "agility": 520,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Fizzy",
+    "stats": {
+      "hp": 1330,
+      "mp": 440,
+      "attack": 540,
+      "defense": 310,
+      "agility": 520,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Ronin Raccoon",
+    "stats": {
+      "hp": 1340,
+      "mp": 440,
+      "attack": 560,
+      "defense": 350,
+      "agility": 620,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Evil Sir Leopold",
+    "stats": {
+      "hp": 1310,
+      "mp": 440,
+      "attack": 590,
+      "defense": 530,
+      "agility": 580,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Behemoth Slime",
+    "stats": {
+      "hp": 1380,
+      "mp": 440,
+      "attack": 580,
+      "defense": 540,
+      "agility": 460,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Alarmour",
+    "stats": {
+      "hp": 1320,
+      "mp": 440,
+      "attack": 580,
+      "defense": 670,
+      "agility": 420,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Lunatick",
+    "stats": {
+      "hp": 1390,
+      "mp": 440,
+      "attack": 530,
+      "defense": 350,
+      "agility": 460,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Drackolyte",
+    "stats": {
+      "hp": 1330,
+      "mp": 430,
+      "attack": 510,
+      "defense": 430,
+      "agility": 550,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Hypothermion",
+    "stats": {
+      "hp": 1320,
+      "mp": 430,
+      "attack": 530,
+      "defense": 470,
+      "agility": 540,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Garuda",
+    "stats": {
+      "hp": 1270,
+      "mp": 430,
+      "attack": 590,
+      "defense": 560,
+      "agility": 580,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Chimaera",
+    "stats": {
+      "hp": 1320,
+      "mp": 430,
+      "attack": 570,
+      "defense": 500,
+      "agility": 500,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Tree Feller",
+    "stats": {
+      "hp": 1320,
+      "mp": 430,
+      "attack": 530,
+      "defense": 500,
+      "agility": 600,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Tartarus Eagle",
+    "stats": {
+      "hp": 1280,
+      "mp": 430,
+      "attack": 590,
+      "defense": 550,
+      "agility": 600,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Soft Serve Spook",
+    "stats": {
+      "hp": 1420,
+      "mp": 430,
+      "attack": 440,
+      "defense": 530,
+      "agility": 460,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Fandangow",
+    "stats": {
+      "hp": 1310,
+      "mp": 430,
+      "attack": 580,
+      "defense": 410,
+      "agility": 560,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Skullrider",
+    "stats": {
+      "hp": 1390,
+      "mp": 430,
+      "attack": 520,
+      "defense": 330,
+      "agility": 470,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Monolog",
+    "stats": {
+      "hp": 1440,
+      "mp": 430,
+      "attack": 580,
+      "defense": 340,
+      "agility": 390,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Clobster",
+    "stats": {
+      "hp": 1400,
+      "mp": 430,
+      "attack": 530,
+      "defense": 680,
+      "agility": 380,
+      "wisdom": 370
+    }
+  },
+  {
+    "name": "Treeface",
+    "stats": {
+      "hp": 1320,
+      "mp": 430,
+      "attack": 530,
+      "defense": 520,
+      "agility": 480,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Sunset Sultan",
+    "stats": {
+      "hp": 1360,
+      "mp": 430,
+      "attack": 590,
+      "defense": 500,
+      "agility": 430,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Night Emperor",
+    "stats": {
+      "hp": 1360,
+      "mp": 430,
+      "attack": 580,
+      "defense": 510,
+      "agility": 430,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Slime",
+    "stats": {
+      "hp": 1410,
+      "mp": 430,
+      "attack": 460,
+      "defense": 370,
+      "agility": 640,
+      "wisdom": 260
+    }
+  },
+  {
+    "name": "Onion Slime",
+    "stats": {
+      "hp": 1390,
+      "mp": 430,
+      "attack": 510,
+      "defense": 530,
+      "agility": 570,
+      "wisdom": 220
+    }
+  },
+  {
+    "name": "Cumaulus",
+    "stats": {
+      "hp": 1340,
+      "mp": 430,
+      "attack": 570,
+      "defense": 350,
+      "agility": 510,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Luminous Lampling",
+    "stats": {
+      "hp": 1320,
+      "mp": 430,
+      "attack": 520,
+      "defense": 630,
+      "agility": 450,
+      "wisdom": 620
+    }
+  },
+  {
+    "name": "Goomulonimbus",
+    "stats": {
+      "hp": 1340,
+      "mp": 430,
+      "attack": 590,
+      "defense": 260,
+      "agility": 610,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Abracadabrador",
+    "stats": {
+      "hp": 1350,
+      "mp": 430,
+      "attack": 570,
+      "defense": 550,
+      "agility": 370,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Damselfly",
+    "stats": {
+      "hp": 1310,
+      "mp": 430,
+      "attack": 460,
+      "defense": 210,
+      "agility": 800,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Killer Gila",
+    "stats": {
+      "hp": 1370,
+      "mp": 430,
+      "attack": 610,
+      "defense": 430,
+      "agility": 420,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Snowgre",
+    "stats": {
+      "hp": 1410,
+      "mp": 430,
+      "attack": 540,
+      "defense": 610,
+      "agility": 390,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Dracky",
+    "stats": {
+      "hp": 1290,
+      "mp": 430,
+      "attack": 490,
+      "defense": 420,
+      "agility": 750,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Cannonbrawler",
+    "stats": {
+      "hp": 1360,
+      "mp": 430,
+      "attack": 690,
+      "defense": 380,
+      "agility": 460,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Clawvus",
+    "stats": {
+      "hp": 1380,
+      "mp": 430,
+      "attack": 550,
+      "defense": 390,
+      "agility": 560,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Suckling Ocker",
+    "stats": {
+      "hp": 1400,
+      "mp": 420,
+      "attack": 600,
+      "defense": 410,
+      "agility": 430,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Hocus-Poker",
+    "stats": {
+      "hp": 1350,
+      "mp": 420,
+      "attack": 470,
+      "defense": 450,
+      "agility": 510,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Awebergine",
+    "stats": {
+      "hp": 1360,
+      "mp": 420,
+      "attack": 560,
+      "defense": 400,
+      "agility": 540,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Funghoul",
+    "stats": {
+      "hp": 1340,
+      "mp": 420,
+      "attack": 580,
+      "defense": 550,
+      "agility": 500,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Palooka Prawn",
+    "stats": {
+      "hp": 1400,
+      "mp": 420,
+      "attack": 590,
+      "defense": 640,
+      "agility": 390,
+      "wisdom": 280
+    }
+  },
+  {
+    "name": "Drohl Drone",
+    "stats": {
+      "hp": 1330,
+      "mp": 420,
+      "attack": 530,
+      "defense": 500,
+      "agility": 590,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Mummy Boy",
+    "stats": {
+      "hp": 1380,
+      "mp": 420,
+      "attack": 580,
+      "defense": 560,
+      "agility": 450,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Tuffpoise",
+    "stats": {
+      "hp": 1310,
+      "mp": 420,
+      "attack": 530,
+      "defense": 380,
+      "agility": 560,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Baleen Mage",
+    "stats": {
+      "hp": 1420,
+      "mp": 420,
+      "attack": 480,
+      "defense": 560,
+      "agility": 350,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Gripevine",
+    "stats": {
+      "hp": 1400,
+      "mp": 420,
+      "attack": 540,
+      "defense": 610,
+      "agility": 250,
+      "wisdom": 690
+    }
+  },
+  {
+    "name": "Discombobulator",
+    "stats": {
+      "hp": 1350,
+      "mp": 420,
+      "attack": 580,
+      "defense": 460,
+      "agility": 470,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Hawk Man",
+    "stats": {
+      "hp": 1310,
+      "mp": 420,
+      "attack": 630,
+      "defense": 430,
+      "agility": 560,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Gargoyle",
+    "stats": {
+      "hp": 1340,
+      "mp": 420,
+      "attack": 580,
+      "defense": 510,
+      "agility": 520,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Purrgatroyd",
+    "stats": {
+      "hp": 1240,
+      "mp": 420,
+      "attack": 650,
+      "defense": 430,
+      "agility": 660,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Sugarstar Slime",
+    "stats": {
+      "hp": 1280,
+      "mp": 420,
+      "attack": 480,
+      "defense": 490,
+      "agility": 640,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "String Fella",
+    "stats": {
+      "hp": 1320,
+      "mp": 420,
+      "attack": 580,
+      "defense": 390,
+      "agility": 540,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Hell Niño",
+    "stats": {
+      "hp": 1310,
+      "mp": 420,
+      "attack": 520,
+      "defense": 430,
+      "agility": 570,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Freezing Fog",
+    "stats": {
+      "hp": 1330,
+      "mp": 420,
+      "attack": 490,
+      "defense": 410,
+      "agility": 540,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Slionheart",
+    "stats": {
+      "hp": 1270,
+      "mp": 420,
+      "attack": 630,
+      "defense": 590,
+      "agility": 520,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Winky",
+    "stats": {
+      "hp": 1340,
+      "mp": 420,
+      "attack": 560,
+      "defense": 520,
+      "agility": 500,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Blinkster",
+    "stats": {
+      "hp": 1370,
+      "mp": 420,
+      "attack": 430,
+      "defense": 570,
+      "agility": 480,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Kisser",
+    "stats": {
+      "hp": 1370,
+      "mp": 410,
+      "attack": 440,
+      "defense": 380,
+      "agility": 510,
+      "wisdom": 730
+    }
+  },
+  {
+    "name": "Stark Raven",
+    "stats": {
+      "hp": 1300,
+      "mp": 410,
+      "attack": 560,
+      "defense": 590,
+      "agility": 550,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Dangler Fish",
+    "stats": {
+      "hp": 1320,
+      "mp": 410,
+      "attack": 540,
+      "defense": 490,
+      "agility": 510,
+      "wisdom": 620
+    }
+  },
+  {
+    "name": "Umbra",
+    "stats": {
+      "hp": 1340,
+      "mp": 410,
+      "attack": 560,
+      "defense": 410,
+      "agility": 480,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Murdaw",
+    "stats": {
+      "hp": 1350,
+      "mp": 410,
+      "attack": 470,
+      "defense": 460,
+      "agility": 510,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Scallop Slime",
+    "stats": {
+      "hp": 1360,
+      "mp": 410,
+      "attack": 460,
+      "defense": 600,
+      "agility": 490,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Slime Knight",
+    "stats": {
+      "hp": 1320,
+      "mp": 410,
+      "attack": 580,
+      "defense": 590,
+      "agility": 470,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Greater Platypink",
+    "stats": {
+      "hp": 1420,
+      "mp": 410,
+      "attack": 520,
+      "defense": 570,
+      "agility": 380,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Slick Slime",
+    "stats": {
+      "hp": 1340,
+      "mp": 410,
+      "attack": 490,
+      "defense": 380,
+      "agility": 630,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Dancing Flame",
+    "stats": {
+      "hp": 1330,
+      "mp": 410,
+      "attack": 560,
+      "defense": 550,
+      "agility": 500,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Pickayune",
+    "stats": {
+      "hp": 1330,
+      "mp": 410,
+      "attack": 590,
+      "defense": 520,
+      "agility": 490,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Killerpillar",
+    "stats": {
+      "hp": 1320,
+      "mp": 400,
+      "attack": 590,
+      "defense": 550,
+      "agility": 500,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Archdemon",
+    "stats": {
+      "hp": 1360,
+      "mp": 400,
+      "attack": 580,
+      "defense": 530,
+      "agility": 400,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Beanie Meanie",
+    "stats": {
+      "hp": 1410,
+      "mp": 400,
+      "attack": 530,
+      "defense": 330,
+      "agility": 460,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Belial",
+    "stats": {
+      "hp": 1350,
+      "mp": 400,
+      "attack": 520,
+      "defense": 550,
+      "agility": 430,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Hades' Condor",
+    "stats": {
+      "hp": 1410,
+      "mp": 400,
+      "attack": 550,
+      "defense": 470,
+      "agility": 480,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Skeleton Soldier",
+    "stats": {
+      "hp": 1390,
+      "mp": 400,
+      "attack": 580,
+      "defense": 460,
+      "agility": 480,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Snowbird",
+    "stats": {
+      "hp": 1320,
+      "mp": 400,
+      "attack": 570,
+      "defense": 440,
+      "agility": 550,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Gangleclaw",
+    "stats": {
+      "hp": 1340,
+      "mp": 400,
+      "attack": 600,
+      "defense": 430,
+      "agility": 540,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Dullahan",
+    "stats": {
+      "hp": 1320,
+      "mp": 400,
+      "attack": 500,
+      "defense": 590,
+      "agility": 480,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Grincinerator",
+    "stats": {
+      "hp": 1400,
+      "mp": 400,
+      "attack": 420,
+      "defense": 590,
+      "agility": 530,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "She-Slime",
+    "stats": {
+      "hp": 1480,
+      "mp": 400,
+      "attack": 530,
+      "defense": 350,
+      "agility": 450,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Equinox",
+    "stats": {
+      "hp": 1300,
+      "mp": 400,
+      "attack": 640,
+      "defense": 530,
+      "agility": 570,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Foo Dog",
+    "stats": {
+      "hp": 1350,
+      "mp": 400,
+      "attack": 570,
+      "defense": 450,
+      "agility": 480,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "King Foo Dog",
+    "stats": {
+      "hp": 1350,
+      "mp": 400,
+      "attack": 600,
+      "defense": 450,
+      "agility": 460,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Cloud Surfer",
+    "stats": {
+      "hp": 1390,
+      "mp": 400,
+      "attack": 560,
+      "defense": 470,
+      "agility": 460,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Bodkin Fletcher",
+    "stats": {
+      "hp": 1300,
+      "mp": 400,
+      "attack": 610,
+      "defense": 440,
+      "agility": 550,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Wyrmhole Dragon",
+    "stats": {
+      "hp": 1250,
+      "mp": 390,
+      "attack": 580,
+      "defense": 490,
+      "agility": 580,
+      "wisdom": 700
+    }
+  },
+  {
+    "name": "Grim Keeper",
+    "stats": {
+      "hp": 1320,
+      "mp": 390,
+      "attack": 590,
+      "defense": 480,
+      "agility": 560,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Bullfinch",
+    "stats": {
+      "hp": 1320,
+      "mp": 390,
+      "attack": 620,
+      "defense": 530,
+      "agility": 490,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Zaptile",
+    "stats": {
+      "hp": 1390,
+      "mp": 390,
+      "attack": 530,
+      "defense": 450,
+      "agility": 460,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Wax Murderer",
+    "stats": {
+      "hp": 1360,
+      "mp": 390,
+      "attack": 510,
+      "defense": 600,
+      "agility": 480,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Grinferno",
+    "stats": {
+      "hp": 1380,
+      "mp": 390,
+      "attack": 460,
+      "defense": 560,
+      "agility": 530,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Foebergine",
+    "stats": {
+      "hp": 1390,
+      "mp": 390,
+      "attack": 560,
+      "defense": 440,
+      "agility": 480,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Night Sneaker",
+    "stats": {
+      "hp": 1320,
+      "mp": 390,
+      "attack": 490,
+      "defense": 350,
+      "agility": 620,
+      "wisdom": 660
+    }
+  },
+  {
+    "name": "Bone Baron",
+    "stats": {
+      "hp": 1340,
+      "mp": 390,
+      "attack": 530,
+      "defense": 530,
+      "agility": 510,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Triple Splatty",
+    "stats": {
+      "hp": 1340,
+      "mp": 390,
+      "attack": 570,
+      "defense": 510,
+      "agility": 490,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Slime Stack",
+    "stats": {
+      "hp": 1340,
+      "mp": 390,
+      "attack": 570,
+      "defense": 510,
+      "agility": 490,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Emperor Slime",
+    "stats": {
+      "hp": 1380,
+      "mp": 390,
+      "attack": 580,
+      "defense": 470,
+      "agility": 420,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Frostburn",
+    "stats": {
+      "hp": 1350,
+      "mp": 390,
+      "attack": 580,
+      "defense": 500,
+      "agility": 520,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Tyrannoceratops",
+    "stats": {
+      "hp": 1400,
+      "mp": 390,
+      "attack": 560,
+      "defense": 660,
+      "agility": 390,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Mandrake Marshal",
+    "stats": {
+      "hp": 1340,
+      "mp": 390,
+      "attack": 580,
+      "defense": 530,
+      "agility": 490,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Beleth",
+    "stats": {
+      "hp": 1360,
+      "mp": 390,
+      "attack": 510,
+      "defense": 380,
+      "agility": 550,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Bilhaw",
+    "stats": {
+      "hp": 1240,
+      "mp": 380,
+      "attack": 470,
+      "defense": 640,
+      "agility": 630,
+      "wisdom": 720
+    }
+  },
+  {
+    "name": "Grrrgoyle",
+    "stats": {
+      "hp": 1390,
+      "mp": 380,
+      "attack": 520,
+      "defense": 380,
+      "agility": 550,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Lieutenant Goresby-Purrvis",
+    "stats": {
+      "hp": 1280,
+      "mp": 380,
+      "attack": 710,
+      "defense": 360,
+      "agility": 580,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Barbatos",
+    "stats": {
+      "hp": 1400,
+      "mp": 380,
+      "attack": 600,
+      "defense": 360,
+      "agility": 420,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Brimstone Bulb",
+    "stats": {
+      "hp": 1400,
+      "mp": 380,
+      "attack": 630,
+      "defense": 590,
+      "agility": 380,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Skipper",
+    "stats": {
+      "hp": 1320,
+      "mp": 380,
+      "attack": 560,
+      "defense": 630,
+      "agility": 530,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Fowl Beast",
+    "stats": {
+      "hp": 1330,
+      "mp": 380,
+      "attack": 630,
+      "defense": 520,
+      "agility": 490,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Platypunk",
+    "stats": {
+      "hp": 1340,
+      "mp": 380,
+      "attack": 610,
+      "defense": 600,
+      "agility": 490,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Rotten Cotton",
+    "stats": {
+      "hp": 1350,
+      "mp": 380,
+      "attack": 510,
+      "defense": 540,
+      "agility": 545,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Mordegon, Lord of Shadows",
+    "stats": {
+      "hp": 1330,
+      "mp": 380,
+      "attack": 720,
+      "defense": 420,
+      "agility": 420,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Slimeshroom",
+    "stats": {
+      "hp": 1400,
+      "mp": 380,
+      "attack": 520,
+      "defense": 410,
+      "agility": 480,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Rubble Slime",
+    "stats": {
+      "hp": 1360,
+      "mp": 380,
+      "attack": 540,
+      "defense": 690,
+      "agility": 400,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Escudogre",
+    "stats": {
+      "hp": 1330,
+      "mp": 380,
+      "attack": 610,
+      "defense": 720,
+      "agility": 450,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Slime Snack",
+    "stats": {
+      "hp": 1400,
+      "mp": 380,
+      "attack": 500,
+      "defense": 630,
+      "agility": 430,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Coralossus",
+    "stats": {
+      "hp": 1380,
+      "mp": 380,
+      "attack": 630,
+      "defense": 590,
+      "agility": 380,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Weaken Beakon",
+    "stats": {
+      "hp": 1330,
+      "mp": 370,
+      "attack": 630,
+      "defense": 460,
+      "agility": 540,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Phantom Fencer",
+    "stats": {
+      "hp": 1350,
+      "mp": 370,
+      "attack": 600,
+      "defense": 350,
+      "agility": 560,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Vampire Cat",
+    "stats": {
+      "hp": 1300,
+      "mp": 370,
+      "attack": 450,
+      "defense": 430,
+      "agility": 700,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Ursa Major",
+    "stats": {
+      "hp": 1350,
+      "mp": 370,
+      "attack": 610,
+      "defense": 320,
+      "agility": 550,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Grotwyrm",
+    "stats": {
+      "hp": 1380,
+      "mp": 370,
+      "attack": 570,
+      "defense": 440,
+      "agility": 470,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Demon-At-Arms",
+    "stats": {
+      "hp": 1320,
+      "mp": 370,
+      "attack": 600,
+      "defense": 480,
+      "agility": 410,
+      "wisdom": 750
+    }
+  },
+  {
+    "name": "Rhapthorne",
+    "stats": {
+      "hp": 1410,
+      "mp": 370,
+      "attack": 420,
+      "defense": 520,
+      "agility": 370,
+      "wisdom": 790
+    }
+  },
+  {
+    "name": "Tigergram",
+    "stats": {
+      "hp": 1310,
+      "mp": 370,
+      "attack": 650,
+      "defense": 490,
+      "agility": 540,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Disfigurine",
+    "stats": {
+      "hp": 1340,
+      "mp": 370,
+      "attack": 600,
+      "defense": 470,
+      "agility": 510,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "King Slick Slime",
+    "stats": {
+      "hp": 1430,
+      "mp": 370,
+      "attack": 470,
+      "defense": 460,
+      "agility": 400,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Firn Fiend",
+    "stats": {
+      "hp": 1360,
+      "mp": 370,
+      "attack": 570,
+      "defense": 520,
+      "agility": 440,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Magmalice",
+    "stats": {
+      "hp": 1350,
+      "mp": 370,
+      "attack": 580,
+      "defense": 530,
+      "agility": 450,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Bamboogieman",
+    "stats": {
+      "hp": 1360,
+      "mp": 370,
+      "attack": 580,
+      "defense": 450,
+      "agility": 440,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Wyrtle",
+    "stats": {
+      "hp": 1300,
+      "mp": 370,
+      "attack": 580,
+      "defense": 670,
+      "agility": 400,
+      "wisdom": 700
+    }
+  },
+  {
+    "name": "Tortoceratops",
+    "stats": {
+      "hp": 1350,
+      "mp": 370,
+      "attack": 560,
+      "defense": 690,
+      "agility": 450,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Overkilling Machine",
+    "stats": {
+      "hp": 1280,
+      "mp": 370,
+      "attack": 670,
+      "defense": 560,
+      "agility": 580,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Metal Dragon",
+    "stats": {
+      "hp": 1350,
+      "mp": 370,
+      "attack": 560,
+      "defense": 640,
+      "agility": 450,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Dread Dragooner",
+    "stats": {
+      "hp": 1280,
+      "mp": 370,
+      "attack": 630,
+      "defense": 430,
+      "agility": 600,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Low Djinks",
+    "stats": {
+      "hp": 1390,
+      "mp": 360,
+      "attack": 610,
+      "defense": 340,
+      "agility": 460,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Roseguardin",
+    "stats": {
+      "hp": 1350,
+      "mp": 360,
+      "attack": 580,
+      "defense": 650,
+      "agility": 420,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Balzack",
+    "stats": {
+      "hp": 1370,
+      "mp": 360,
+      "attack": 660,
+      "defense": 530,
+      "agility": 410,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Restless Armour",
+    "stats": {
+      "hp": 1330,
+      "mp": 360,
+      "attack": 580,
+      "defense": 690,
+      "agility": 470,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Overtoad",
+    "stats": {
+      "hp": 1360,
+      "mp": 360,
+      "attack": 580,
+      "defense": 450,
+      "agility": 510,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Float-O-Copier",
+    "stats": {
+      "hp": 1330,
+      "mp": 360,
+      "attack": 590,
+      "defense": 360,
+      "agility": 500,
+      "wisdom": 680
+    }
+  },
+  {
+    "name": "Sham Hatwitch",
+    "stats": {
+      "hp": 1360,
+      "mp": 360,
+      "attack": 470,
+      "defense": 630,
+      "agility": 485,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Mouseflap",
+    "stats": {
+      "hp": 1360,
+      "mp": 360,
+      "attack": 590,
+      "defense": 370,
+      "agility": 570,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Orc",
+    "stats": {
+      "hp": 1340,
+      "mp": 360,
+      "attack": 600,
+      "defense": 480,
+      "agility": 490,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Mimic With Cheese",
+    "stats": {
+      "hp": 1310,
+      "mp": 360,
+      "attack": 610,
+      "defense": 590,
+      "agility": 520,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Eggsoskeleton",
+    "stats": {
+      "hp": 1370,
+      "mp": 360,
+      "attack": 570,
+      "defense": 520,
+      "agility": 510,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Scuttle Slime",
+    "stats": {
+      "hp": 1390,
+      "mp": 360,
+      "attack": 540,
+      "defense": 640,
+      "agility": 440,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Erazor Blade",
+    "stats": {
+      "hp": 1310,
+      "mp": 360,
+      "attack": 600,
+      "defense": 510,
+      "agility": 570,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Prancing Pillar",
+    "stats": {
+      "hp": 1380,
+      "mp": 360,
+      "attack": 540,
+      "defense": 560,
+      "agility": 450,
+      "wisdom": 480
+    }
+  },
+  {
+    "name": "Brollygagger",
+    "stats": {
+      "hp": 1360,
+      "mp": 360,
+      "attack": 560,
+      "defense": 480,
+      "agility": 460,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Briny Bronco",
+    "stats": {
+      "hp": 1330,
+      "mp": 360,
+      "attack": 630,
+      "defense": 470,
+      "agility": 510,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Mimic",
+    "stats": {
+      "hp": 1310,
+      "mp": 360,
+      "attack": 610,
+      "defense": 590,
+      "agility": 520,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "The Trauminator",
+    "stats": {
+      "hp": 1230,
+      "mp": 360,
+      "attack": 580,
+      "defense": 710,
+      "agility": 590,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Merman",
+    "stats": {
+      "hp": 1340,
+      "mp": 360,
+      "attack": 570,
+      "defense": 600,
+      "agility": 520,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Ogre",
+    "stats": {
+      "hp": 1370,
+      "mp": 360,
+      "attack": 670,
+      "defense": 390,
+      "agility": 460,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Peeper",
+    "stats": {
+      "hp": 1390,
+      "mp": 360,
+      "attack": 660,
+      "defense": 470,
+      "agility": 400,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Sculptrice",
+    "stats": {
+      "hp": 1360,
+      "mp": 350,
+      "attack": 600,
+      "defense": 640,
+      "agility": 410,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Knight Errant",
+    "stats": {
+      "hp": 1360,
+      "mp": 350,
+      "attack": 520,
+      "defense": 600,
+      "agility": 470,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Sintaur",
+    "stats": {
+      "hp": 1370,
+      "mp": 350,
+      "attack": 620,
+      "defense": 450,
+      "agility": 460,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Bloodbonnet",
+    "stats": {
+      "hp": 1300,
+      "mp": 350,
+      "attack": 650,
+      "defense": 480,
+      "agility": 560,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Scissor Beatle",
+    "stats": {
+      "hp": 1390,
+      "mp": 350,
+      "attack": 580,
+      "defense": 720,
+      "agility": 410,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Jugular Joker",
+    "stats": {
+      "hp": 1330,
+      "mp": 350,
+      "attack": 580,
+      "defense": 510,
+      "agility": 590,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Scornet",
+    "stats": {
+      "hp": 1360,
+      "mp": 350,
+      "attack": 510,
+      "defense": 350,
+      "agility": 680,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Pazuzu",
+    "stats": {
+      "hp": 1340,
+      "mp": 350,
+      "attack": 510,
+      "defense": 560,
+      "agility": 490,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Roistering Rooster",
+    "stats": {
+      "hp": 1260,
+      "mp": 350,
+      "attack": 540,
+      "defense": 500,
+      "agility": 640,
+      "wisdom": 650
+    }
+  },
+  {
+    "name": "Bunicorn",
+    "stats": {
+      "hp": 1370,
+      "mp": 350,
+      "attack": 570,
+      "defense": 430,
+      "agility": 540,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Fat Rat",
+    "stats": {
+      "hp": 1350,
+      "mp": 350,
+      "attack": 570,
+      "defense": 490,
+      "agility": 550,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Grim Rider",
+    "stats": {
+      "hp": 1360,
+      "mp": 350,
+      "attack": 570,
+      "defense": 450,
+      "agility": 560,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Robber Rabbit",
+    "stats": {
+      "hp": 1330,
+      "mp": 350,
+      "attack": 610,
+      "defense": 430,
+      "agility": 570,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Ratatattack",
+    "stats": {
+      "hp": 1340,
+      "mp": 350,
+      "attack": 600,
+      "defense": 450,
+      "agility": 560,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Night Knight",
+    "stats": {
+      "hp": 1330,
+      "mp": 350,
+      "attack": 600,
+      "defense": 560,
+      "agility": 440,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Sweaty Yeti",
+    "stats": {
+      "hp": 1410,
+      "mp": 350,
+      "attack": 640,
+      "defense": 520,
+      "agility": 380,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Nimzo",
+    "stats": {
+      "hp": 1330,
+      "mp": 350,
+      "attack": 580,
+      "defense": 510,
+      "agility": 460,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Tantamount",
+    "stats": {
+      "hp": 1370,
+      "mp": 350,
+      "attack": 560,
+      "defense": 510,
+      "agility": 470,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "King Slime",
+    "stats": {
+      "hp": 1410,
+      "mp": 350,
+      "attack": 490,
+      "defense": 550,
+      "agility": 370,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Killing Machine",
+    "stats": {
+      "hp": 1240,
+      "mp": 350,
+      "attack": 690,
+      "defense": 660,
+      "agility": 540,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Great Argon Lizard",
+    "stats": {
+      "hp": 1390,
+      "mp": 350,
+      "attack": 650,
+      "defense": 600,
+      "agility": 420,
+      "wisdom": 250
+    }
+  },
+  {
+    "name": "Wyrtoise",
+    "stats": {
+      "hp": 1280,
+      "mp": 350,
+      "attack": 550,
+      "defense": 660,
+      "agility": 470,
+      "wisdom": 730
+    }
+  },
+  {
+    "name": "Dessert Demon",
+    "stats": {
+      "hp": 1360,
+      "mp": 350,
+      "attack": 590,
+      "defense": 500,
+      "agility": 460,
+      "wisdom": 510
+    }
+  },
+  {
+    "name": "Rashaverak",
+    "stats": {
+      "hp": 1330,
+      "mp": 350,
+      "attack": 590,
+      "defense": 510,
+      "agility": 510,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Infernal Serpent",
+    "stats": {
+      "hp": 1410,
+      "mp": 350,
+      "attack": 630,
+      "defense": 420,
+      "agility": 390,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "True Dragonlord",
+    "stats": {
+      "hp": 1290,
+      "mp": 340,
+      "attack": 610,
+      "defense": 650,
+      "agility": 460,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Toady",
+    "stats": {
+      "hp": 1400,
+      "mp": 340,
+      "attack": 560,
+      "defense": 440,
+      "agility": 505,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Parched Peckerel",
+    "stats": {
+      "hp": 1370,
+      "mp": 340,
+      "attack": 500,
+      "defense": 530,
+      "agility": 550,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Carnivine",
+    "stats": {
+      "hp": 1370,
+      "mp": 340,
+      "attack": 590,
+      "defense": 430,
+      "agility": 470,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Crabber Dabber Doo",
+    "stats": {
+      "hp": 1320,
+      "mp": 340,
+      "attack": 540,
+      "defense": 790,
+      "agility": 430,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Firebird",
+    "stats": {
+      "hp": 1310,
+      "mp": 340,
+      "attack": 560,
+      "defense": 490,
+      "agility": 610,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Fightgeist",
+    "stats": {
+      "hp": 1360,
+      "mp": 340,
+      "attack": 520,
+      "defense": 360,
+      "agility": 540,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "One-Man Army",
+    "stats": {
+      "hp": 1350,
+      "mp": 340,
+      "attack": 630,
+      "defense": 430,
+      "agility": 560,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Splatypunk",
+    "stats": {
+      "hp": 1380,
+      "mp": 340,
+      "attack": 550,
+      "defense": 520,
+      "agility": 430,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Giruffian",
+    "stats": {
+      "hp": 1350,
+      "mp": 340,
+      "attack": 580,
+      "defense": 510,
+      "agility": 440,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Hellion",
+    "stats": {
+      "hp": 1390,
+      "mp": 340,
+      "attack": 570,
+      "defense": 530,
+      "agility": 440,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Corvus",
+    "stats": {
+      "hp": 1330,
+      "mp": 340,
+      "attack": 680,
+      "defense": 470,
+      "agility": 390,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Gnumesis",
+    "stats": {
+      "hp": 1390,
+      "mp": 340,
+      "attack": 620,
+      "defense": 560,
+      "agility": 460,
+      "wisdom": 280
+    }
+  },
+  {
+    "name": "Draguar",
+    "stats": {
+      "hp": 1320,
+      "mp": 340,
+      "attack": 620,
+      "defense": 460,
+      "agility": 540,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Ursa Mega",
+    "stats": {
+      "hp": 1290,
+      "mp": 340,
+      "attack": 640,
+      "defense": 460,
+      "agility": 580,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Well Wisher",
+    "stats": {
+      "hp": 1420,
+      "mp": 340,
+      "attack": 530,
+      "defense": 410,
+      "agility": 440,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Cyber Slime",
+    "stats": {
+      "hp": 1360,
+      "mp": 340,
+      "attack": 590,
+      "defense": 530,
+      "agility": 420,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Dragonthorn",
+    "stats": {
+      "hp": 1360,
+      "mp": 340,
+      "attack": 570,
+      "defense": 610,
+      "agility": 530,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Pteranodon",
+    "stats": {
+      "hp": 1360,
+      "mp": 340,
+      "attack": 580,
+      "defense": 350,
+      "agility": 610,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Drag Racer",
+    "stats": {
+      "hp": 1330,
+      "mp": 340,
+      "attack": 620,
+      "defense": 480,
+      "agility": 610,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Hard-Boiled Eggsoskeleton",
+    "stats": {
+      "hp": 1410,
+      "mp": 340,
+      "attack": 560,
+      "defense": 590,
+      "agility": 430,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Cauldragon",
+    "stats": {
+      "hp": 1370,
+      "mp": 340,
+      "attack": 690,
+      "defense": 370,
+      "agility": 460,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Pandora's Box",
+    "stats": {
+      "hp": 1420,
+      "mp": 340,
+      "attack": 430,
+      "defense": 610,
+      "agility": 560,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Leery Lout",
+    "stats": {
+      "hp": 1350,
+      "mp": 340,
+      "attack": 550,
+      "defense": 670,
+      "agility": 450,
+      "wisdom": 490
+    }
+  },
+  {
+    "name": "Wyvern",
+    "stats": {
+      "hp": 1380,
+      "mp": 340,
+      "attack": 580,
+      "defense": 480,
+      "agility": 510,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Crowgre",
+    "stats": {
+      "hp": 1350,
+      "mp": 340,
+      "attack": 580,
+      "defense": 380,
+      "agility": 550,
+      "wisdom": 520
+    }
+  },
+  {
+    "name": "Moosifer",
+    "stats": {
+      "hp": 1390,
+      "mp": 330,
+      "attack": 540,
+      "defense": 490,
+      "agility": 420,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Goobonce",
+    "stats": {
+      "hp": 1300,
+      "mp": 330,
+      "attack": 660,
+      "defense": 430,
+      "agility": 580,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Grillerpillar",
+    "stats": {
+      "hp": 1400,
+      "mp": 330,
+      "attack": 530,
+      "defense": 550,
+      "agility": 460,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Corpsickle",
+    "stats": {
+      "hp": 1440,
+      "mp": 330,
+      "attack": 590,
+      "defense": 400,
+      "agility": 430,
+      "wisdom": 370
+    }
+  },
+  {
+    "name": "Headless Horseman",
+    "stats": {
+      "hp": 1320,
+      "mp": 330,
+      "attack": 580,
+      "defense": 620,
+      "agility": 530,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Dark Sabrecub",
+    "stats": {
+      "hp": 1340,
+      "mp": 330,
+      "attack": 610,
+      "defense": 390,
+      "agility": 610,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Warhog",
+    "stats": {
+      "hp": 1350,
+      "mp": 330,
+      "attack": 640,
+      "defense": 510,
+      "agility": 490,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Calasmos",
+    "stats": {
+      "hp": 1290,
+      "mp": 330,
+      "attack": 740,
+      "defense": 550,
+      "agility": 380,
+      "wisdom": 620
+    }
+  },
+  {
+    "name": "Hyperboarean",
+    "stats": {
+      "hp": 1390,
+      "mp": 330,
+      "attack": 610,
+      "defense": 530,
+      "agility": 480,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Orc King",
+    "stats": {
+      "hp": 1400,
+      "mp": 330,
+      "attack": 580,
+      "defense": 410,
+      "agility": 435,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Dark Hare",
+    "stats": {
+      "hp": 1300,
+      "mp": 330,
+      "attack": 710,
+      "defense": 360,
+      "agility": 570,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Stone Golem",
+    "stats": {
+      "hp": 1400,
+      "mp": 330,
+      "attack": 550,
+      "defense": 680,
+      "agility": 390,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Superior Slime",
+    "stats": {
+      "hp": 1350,
+      "mp": 330,
+      "attack": 480,
+      "defense": 480,
+      "agility": 580,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Raptile",
+    "stats": {
+      "hp": 1430,
+      "mp": 330,
+      "attack": 460,
+      "defense": 350,
+      "agility": 620,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Spitzfire",
+    "stats": {
+      "hp": 1330,
+      "mp": 330,
+      "attack": 660,
+      "defense": 490,
+      "agility": 520,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Ne'er-Do-Well",
+    "stats": {
+      "hp": 1410,
+      "mp": 330,
+      "attack": 510,
+      "defense": 470,
+      "agility": 440,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "A3G15",
+    "stats": {
+      "hp": 1290,
+      "mp": 330,
+      "attack": 580,
+      "defense": 620,
+      "agility": 530,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Mandrake Major",
+    "stats": {
+      "hp": 1350,
+      "mp": 330,
+      "attack": 570,
+      "defense": 510,
+      "agility": 470,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Axesaurus",
+    "stats": {
+      "hp": 1420,
+      "mp": 330,
+      "attack": 560,
+      "defense": 620,
+      "agility": 420,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Great Keeper",
+    "stats": {
+      "hp": 1440,
+      "mp": 330,
+      "attack": 550,
+      "defense": 680,
+      "agility": 380,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Tundragster",
+    "stats": {
+      "hp": 1420,
+      "mp": 330,
+      "attack": 600,
+      "defense": 460,
+      "agility": 490,
+      "wisdom": 250
+    }
+  },
+  {
+    "name": "Picksy",
+    "stats": {
+      "hp": 1380,
+      "mp": 330,
+      "attack": 590,
+      "defense": 430,
+      "agility": 530,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Heligator",
+    "stats": {
+      "hp": 1400,
+      "mp": 330,
+      "attack": 610,
+      "defense": 640,
+      "agility": 410,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Hood",
+    "stats": {
+      "hp": 1400,
+      "mp": 330,
+      "attack": 580,
+      "defense": 510,
+      "agility": 500,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Silver Serpent",
+    "stats": {
+      "hp": 1340,
+      "mp": 330,
+      "attack": 650,
+      "defense": 310,
+      "agility": 580,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Bantamweight",
+    "stats": {
+      "hp": 1270,
+      "mp": 320,
+      "attack": 540,
+      "defense": 440,
+      "agility": 690,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Barracuda",
+    "stats": {
+      "hp": 1400,
+      "mp": 320,
+      "attack": 610,
+      "defense": 440,
+      "agility": 500,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Spinchilla",
+    "stats": {
+      "hp": 1370,
+      "mp": 320,
+      "attack": 530,
+      "defense": 590,
+      "agility": 505,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Scarfish",
+    "stats": {
+      "hp": 1410,
+      "mp": 320,
+      "attack": 410,
+      "defense": 520,
+      "agility": 510,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Belisha Beakon",
+    "stats": {
+      "hp": 1370,
+      "mp": 320,
+      "attack": 470,
+      "defense": 300,
+      "agility": 540,
+      "wisdom": 780
+    }
+  },
+  {
+    "name": "Dead Resident",
+    "stats": {
+      "hp": 1380,
+      "mp": 320,
+      "attack": 600,
+      "defense": 410,
+      "agility": 530,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Frolicker",
+    "stats": {
+      "hp": 1360,
+      "mp": 320,
+      "attack": 580,
+      "defense": 430,
+      "agility": 550,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Tentacular",
+    "stats": {
+      "hp": 1450,
+      "mp": 320,
+      "attack": 660,
+      "defense": 260,
+      "agility": 420,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Pan Piper",
+    "stats": {
+      "hp": 1360,
+      "mp": 320,
+      "attack": 550,
+      "defense": 550,
+      "agility": 460,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Sekerleton",
+    "stats": {
+      "hp": 1390,
+      "mp": 320,
+      "attack": 620,
+      "defense": 320,
+      "agility": 580,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Weartiger",
+    "stats": {
+      "hp": 1340,
+      "mp": 320,
+      "attack": 590,
+      "defense": 620,
+      "agility": 460,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Brownie",
+    "stats": {
+      "hp": 1340,
+      "mp": 320,
+      "attack": 650,
+      "defense": 550,
+      "agility": 490,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Bones Of Baramos",
+    "stats": {
+      "hp": 1450,
+      "mp": 320,
+      "attack": 560,
+      "defense": 390,
+      "agility": 480,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Marquis De Léon",
+    "stats": {
+      "hp": 1360,
+      "mp": 320,
+      "attack": 520,
+      "defense": 560,
+      "agility": 450,
+      "wisdom": 640
+    }
+  },
+  {
+    "name": "Macho Picchu",
+    "stats": {
+      "hp": 1350,
+      "mp": 320,
+      "attack": 740,
+      "defense": 330,
+      "agility": 500,
+      "wisdom": 370
+    }
+  },
+  {
+    "name": "Clockwork Cuckoo",
+    "stats": {
+      "hp": 1380,
+      "mp": 320,
+      "attack": 530,
+      "defense": 660,
+      "agility": 520,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Paralyslicer",
+    "stats": {
+      "hp": 1350,
+      "mp": 320,
+      "attack": 590,
+      "defense": 520,
+      "agility": 470,
+      "wisdom": 540
+    }
+  },
+  {
+    "name": "Ethereal Serpent",
+    "stats": {
+      "hp": 1340,
+      "mp": 320,
+      "attack": 590,
+      "defense": 530,
+      "agility": 530,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Abyss Diver",
+    "stats": {
+      "hp": 1350,
+      "mp": 320,
+      "attack": 580,
+      "defense": 630,
+      "agility": 550,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Bobonga",
+    "stats": {
+      "hp": 1420,
+      "mp": 320,
+      "attack": 600,
+      "defense": 470,
+      "agility": 440,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Iron Tortoise",
+    "stats": {
+      "hp": 1370,
+      "mp": 320,
+      "attack": 590,
+      "defense": 690,
+      "agility": 380,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Serpent Of The Scales",
+    "stats": {
+      "hp": 1430,
+      "mp": 320,
+      "attack": 590,
+      "defense": 610,
+      "agility": 370,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Swingre",
+    "stats": {
+      "hp": 1430,
+      "mp": 310,
+      "attack": 590,
+      "defense": 620,
+      "agility": 400,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Cactiball",
+    "stats": {
+      "hp": 1370,
+      "mp": 310,
+      "attack": 630,
+      "defense": 490,
+      "agility": 460,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Stout Troll",
+    "stats": {
+      "hp": 1420,
+      "mp": 310,
+      "attack": 670,
+      "defense": 340,
+      "agility": 490,
+      "wisdom": 250
+    }
+  },
+  {
+    "name": "Pruslas",
+    "stats": {
+      "hp": 1420,
+      "mp": 310,
+      "attack": 590,
+      "defense": 590,
+      "agility": 370,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Walking Corpse",
+    "stats": {
+      "hp": 1420,
+      "mp": 310,
+      "attack": 620,
+      "defense": 480,
+      "agility": 400,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Skeleton Swordsman",
+    "stats": {
+      "hp": 1410,
+      "mp": 310,
+      "attack": 660,
+      "defense": 310,
+      "agility": 500,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Hammerhood",
+    "stats": {
+      "hp": 1390,
+      "mp": 310,
+      "attack": 660,
+      "defense": 520,
+      "agility": 440,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Bloody Hand",
+    "stats": {
+      "hp": 1410,
+      "mp": 310,
+      "attack": 630,
+      "defense": 380,
+      "agility": 440,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Boppin' Badger",
+    "stats": {
+      "hp": 1350,
+      "mp": 310,
+      "attack": 580,
+      "defense": 590,
+      "agility": 510,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Jumping Jackal",
+    "stats": {
+      "hp": 1350,
+      "mp": 310,
+      "attack": 630,
+      "defense": 440,
+      "agility": 590,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Jailcat",
+    "stats": {
+      "hp": 1320,
+      "mp": 310,
+      "attack": 580,
+      "defense": 530,
+      "agility": 530,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Greater Platypunk",
+    "stats": {
+      "hp": 1460,
+      "mp": 310,
+      "attack": 520,
+      "defense": 660,
+      "agility": 380,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Dark Sabrecat",
+    "stats": {
+      "hp": 1340,
+      "mp": 310,
+      "attack": 670,
+      "defense": 390,
+      "agility": 580,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Ramia",
+    "stats": {
+      "hp": 1380,
+      "mp": 310,
+      "attack": 490,
+      "defense": 300,
+      "agility": 590,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Chocolate Golem",
+    "stats": {
+      "hp": 1410,
+      "mp": 310,
+      "attack": 550,
+      "defense": 630,
+      "agility": 440,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Komodo",
+    "stats": {
+      "hp": 1360,
+      "mp": 310,
+      "attack": 640,
+      "defense": 480,
+      "agility": 560,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Flython",
+    "stats": {
+      "hp": 1350,
+      "mp": 310,
+      "attack": 510,
+      "defense": 360,
+      "agility": 680,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Stabosaur",
+    "stats": {
+      "hp": 1390,
+      "mp": 310,
+      "attack": 580,
+      "defense": 460,
+      "agility": 510,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Lumbering Lizard",
+    "stats": {
+      "hp": 1410,
+      "mp": 310,
+      "attack": 570,
+      "defense": 610,
+      "agility": 385,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Dragon Rider",
+    "stats": {
+      "hp": 1370,
+      "mp": 310,
+      "attack": 570,
+      "defense": 470,
+      "agility": 530,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Chihuawyrm",
+    "stats": {
+      "hp": 1360,
+      "mp": 310,
+      "attack": 600,
+      "defense": 430,
+      "agility": 600,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Flapdragon",
+    "stats": {
+      "hp": 1350,
+      "mp": 310,
+      "attack": 630,
+      "defense": 470,
+      "agility": 580,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Orochi",
+    "stats": {
+      "hp": 1420,
+      "mp": 310,
+      "attack": 550,
+      "defense": 400,
+      "agility": 390,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Cyclops",
+    "stats": {
+      "hp": 1430,
+      "mp": 310,
+      "attack": 650,
+      "defense": 510,
+      "agility": 380,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Boss Troll",
+    "stats": {
+      "hp": 1400,
+      "mp": 300,
+      "attack": 670,
+      "defense": 640,
+      "agility": 390,
+      "wisdom": 240
+    }
+  },
+  {
+    "name": "Pogoin' Penguin",
+    "stats": {
+      "hp": 1330,
+      "mp": 300,
+      "attack": 550,
+      "defense": 550,
+      "agility": 580,
+      "wisdom": 470
+    }
+  },
+  {
+    "name": "Crabid",
+    "stats": {
+      "hp": 1330,
+      "mp": 300,
+      "attack": 570,
+      "defense": 720,
+      "agility": 520,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Armoured Scorpion",
+    "stats": {
+      "hp": 1350,
+      "mp": 300,
+      "attack": 620,
+      "defense": 670,
+      "agility": 450,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "King Squid",
+    "stats": {
+      "hp": 1420,
+      "mp": 300,
+      "attack": 610,
+      "defense": 460,
+      "agility": 490,
+      "wisdom": 260
+    }
+  },
+  {
+    "name": "Metal Scorpion",
+    "stats": {
+      "hp": 1290,
+      "mp": 300,
+      "attack": 610,
+      "defense": 680,
+      "agility": 540,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Mischievous Mole",
+    "stats": {
+      "hp": 1330,
+      "mp": 300,
+      "attack": 630,
+      "defense": 580,
+      "agility": 520,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Hellbound Hair-Raiser",
+    "stats": {
+      "hp": 1380,
+      "mp": 300,
+      "attack": 520,
+      "defense": 560,
+      "agility": 460,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Powie Yowie",
+    "stats": {
+      "hp": 1340,
+      "mp": 300,
+      "attack": 630,
+      "defense": 530,
+      "agility": 510,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Fright Knight",
+    "stats": {
+      "hp": 1350,
+      "mp": 300,
+      "attack": 630,
+      "defense": 470,
+      "agility": 510,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Marrow Escapee",
+    "stats": {
+      "hp": 1420,
+      "mp": 300,
+      "attack": 600,
+      "defense": 470,
+      "agility": 420,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Spiked Hare",
+    "stats": {
+      "hp": 1310,
+      "mp": 300,
+      "attack": 600,
+      "defense": 480,
+      "agility": 640,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Great Sabercat",
+    "stats": {
+      "hp": 1340,
+      "mp": 300,
+      "attack": 640,
+      "defense": 440,
+      "agility": 580,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Cheater Cheetah",
+    "stats": {
+      "hp": 1380,
+      "mp": 300,
+      "attack": 580,
+      "defense": 430,
+      "agility": 480,
+      "wisdom": 530
+    }
+  },
+  {
+    "name": "Psaro The Manslayer",
+    "stats": {
+      "hp": 1320,
+      "mp": 300,
+      "attack": 640,
+      "defense": 590,
+      "agility": 510,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Maniacal Mole",
+    "stats": {
+      "hp": 1360,
+      "mp": 300,
+      "attack": 590,
+      "defense": 500,
+      "agility": 580,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Notso Macho",
+    "stats": {
+      "hp": 1380,
+      "mp": 300,
+      "attack": 670,
+      "defense": 530,
+      "agility": 460,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Jowler",
+    "stats": {
+      "hp": 1410,
+      "mp": 300,
+      "attack": 620,
+      "defense": 540,
+      "agility": 440,
+      "wisdom": 300
+    }
+  },
+  {
+    "name": "Luneyetic",
+    "stats": {
+      "hp": 1390,
+      "mp": 300,
+      "attack": 420,
+      "defense": 590,
+      "agility": 500,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Abominable Showman",
+    "stats": {
+      "hp": 1330,
+      "mp": 300,
+      "attack": 590,
+      "defense": 490,
+      "agility": 610,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Mohawker",
+    "stats": {
+      "hp": 1390,
+      "mp": 300,
+      "attack": 560,
+      "defense": 500,
+      "agility": 500,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Hunter Mech",
+    "stats": {
+      "hp": 1330,
+      "mp": 300,
+      "attack": 680,
+      "defense": 540,
+      "agility": 510,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Metal Slime Knight",
+    "stats": {
+      "hp": 1350,
+      "mp": 300,
+      "attack": 590,
+      "defense": 620,
+      "agility": 500,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Gasbagon",
+    "stats": {
+      "hp": 1400,
+      "mp": 300,
+      "attack": 590,
+      "defense": 590,
+      "agility": 410,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Hacksaurus",
+    "stats": {
+      "hp": 1320,
+      "mp": 300,
+      "attack": 680,
+      "defense": 480,
+      "agility": 550,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Royal Reptile",
+    "stats": {
+      "hp": 1400,
+      "mp": 300,
+      "attack": 520,
+      "defense": 590,
+      "agility": 390,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Atlas",
+    "stats": {
+      "hp": 1440,
+      "mp": 290,
+      "attack": 550,
+      "defense": 640,
+      "agility": 430,
+      "wisdom": 250
+    }
+  },
+  {
+    "name": "Great Sabrecub",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 590,
+      "defense": 540,
+      "agility": 530,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Ripped Rabbit",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 640,
+      "defense": 380,
+      "agility": 550,
+      "wisdom": 290
+    }
+  },
+  {
+    "name": "Missing Lynx",
+    "stats": {
+      "hp": 1360,
+      "mp": 290,
+      "attack": 550,
+      "defense": 510,
+      "agility": 570,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Razerburn",
+    "stats": {
+      "hp": 1260,
+      "mp": 290,
+      "attack": 690,
+      "defense": 570,
+      "agility": 510,
+      "wisdom": 600
+    }
+  },
+  {
+    "name": "Estark",
+    "stats": {
+      "hp": 1400,
+      "mp": 290,
+      "attack": 520,
+      "defense": 480,
+      "agility": 470,
+      "wisdom": 550
+    }
+  },
+  {
+    "name": "Nokturnus",
+    "stats": {
+      "hp": 1340,
+      "mp": 290,
+      "attack": 740,
+      "defense": 370,
+      "agility": 480,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Buffalogre",
+    "stats": {
+      "hp": 1400,
+      "mp": 290,
+      "attack": 570,
+      "defense": 640,
+      "agility": 480,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Flurry Fiend",
+    "stats": {
+      "hp": 1300,
+      "mp": 290,
+      "attack": 570,
+      "defense": 520,
+      "agility": 540,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Bambooligan",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 580,
+      "defense": 500,
+      "agility": 490,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Harmour",
+    "stats": {
+      "hp": 1360,
+      "mp": 290,
+      "attack": 610,
+      "defense": 690,
+      "agility": 420,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Airbagon",
+    "stats": {
+      "hp": 1410,
+      "mp": 290,
+      "attack": 590,
+      "defense": 670,
+      "agility": 390,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Living Statue",
+    "stats": {
+      "hp": 1370,
+      "mp": 290,
+      "attack": 580,
+      "defense": 680,
+      "agility": 420,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Drakularge",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 630,
+      "defense": 620,
+      "agility": 450,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Boreal Serpent",
+    "stats": {
+      "hp": 1330,
+      "mp": 290,
+      "attack": 520,
+      "defense": 600,
+      "agility": 490,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "Überkilling Machine",
+    "stats": {
+      "hp": 1370,
+      "mp": 290,
+      "attack": 630,
+      "defense": 650,
+      "agility": 500,
+      "wisdom": 220
+    }
+  },
+  {
+    "name": "Noble Gasbagon",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 640,
+      "defense": 540,
+      "agility": 440,
+      "wisdom": 350
+    }
+  },
+  {
+    "name": "Black Dragon",
+    "stats": {
+      "hp": 1410,
+      "mp": 290,
+      "attack": 580,
+      "defense": 470,
+      "agility": 470,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Imp",
+    "stats": {
+      "hp": 1300,
+      "mp": 290,
+      "attack": 570,
+      "defense": 520,
+      "agility": 540,
+      "wisdom": 670
+    }
+  },
+  {
+    "name": "King Hydra",
+    "stats": {
+      "hp": 1420,
+      "mp": 290,
+      "attack": 520,
+      "defense": 530,
+      "agility": 500,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Mechan-O'-Wyrm",
+    "stats": {
+      "hp": 1390,
+      "mp": 290,
+      "attack": 580,
+      "defense": 690,
+      "agility": 390,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Greygnarl",
+    "stats": {
+      "hp": 1360,
+      "mp": 280,
+      "attack": 570,
+      "defense": 470,
+      "agility": 500,
+      "wisdom": 570
+    }
+  },
+  {
+    "name": "Barbarus",
+    "stats": {
+      "hp": 1350,
+      "mp": 280,
+      "attack": 590,
+      "defense": 510,
+      "agility": 460,
+      "wisdom": 610
+    }
+  },
+  {
+    "name": "Xenlon",
+    "stats": {
+      "hp": 1330,
+      "mp": 280,
+      "attack": 620,
+      "defense": 560,
+      "agility": 460,
+      "wisdom": 580
+    }
+  },
+  {
+    "name": "Lord Of The Dragovians",
+    "stats": {
+      "hp": 1340,
+      "mp": 280,
+      "attack": 630,
+      "defense": 650,
+      "agility": 480,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Night Clubber",
+    "stats": {
+      "hp": 1370,
+      "mp": 280,
+      "attack": 700,
+      "defense": 630,
+      "agility": 430,
+      "wisdom": 250
+    }
+  },
+  {
+    "name": "Puffpoise",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 480,
+      "defense": 600,
+      "agility": 460,
+      "wisdom": 500
+    }
+  },
+  {
+    "name": "Lieutenant Goreham-Hogg",
+    "stats": {
+      "hp": 1400,
+      "mp": 280,
+      "attack": 660,
+      "defense": 550,
+      "agility": 410,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Knight Abhorrent",
+    "stats": {
+      "hp": 1370,
+      "mp": 280,
+      "attack": 580,
+      "defense": 640,
+      "agility": 480,
+      "wisdom": 380
+    }
+  },
+  {
+    "name": "Skeleton",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 610,
+      "defense": 510,
+      "agility": 420,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Tuskateer",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 540,
+      "defense": 530,
+      "agility": 480,
+      "wisdom": 410
+    }
+  },
+  {
+    "name": "Skelegon",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 640,
+      "defense": 480,
+      "agility": 440,
+      "wisdom": 340
+    }
+  },
+  {
+    "name": "Nelgel The Netherfiend",
+    "stats": {
+      "hp": 1260,
+      "mp": 280,
+      "attack": 680,
+      "defense": 570,
+      "agility": 510,
+      "wisdom": 630
+    }
+  },
+  {
+    "name": "Gnuriel",
+    "stats": {
+      "hp": 1360,
+      "mp": 280,
+      "attack": 610,
+      "defense": 640,
+      "agility": 460,
+      "wisdom": 400
+    }
+  },
+  {
+    "name": "Cannibox",
+    "stats": {
+      "hp": 1370,
+      "mp": 280,
+      "attack": 630,
+      "defense": 590,
+      "agility": 450,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Rockbomb",
+    "stats": {
+      "hp": 1350,
+      "mp": 280,
+      "attack": 620,
+      "defense": 780,
+      "agility": 320,
+      "wisdom": 560
+    }
+  },
+  {
+    "name": "Nardragon",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 640,
+      "defense": 530,
+      "agility": 450,
+      "wisdom": 270
+    }
+  },
+  {
+    "name": "Flying Saucers",
+    "stats": {
+      "hp": 1390,
+      "mp": 280,
+      "attack": 620,
+      "defense": 400,
+      "agility": 480,
+      "wisdom": 460
+    }
+  },
+  {
+    "name": "Jargon",
+    "stats": {
+      "hp": 1390,
+      "mp": 280,
+      "attack": 650,
+      "defense": 590,
+      "agility": 430,
+      "wisdom": 310
+    }
+  },
+  {
+    "name": "Balhib",
+    "stats": {
+      "hp": 1350,
+      "mp": 280,
+      "attack": 590,
+      "defense": 680,
+      "agility": 460,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Golem",
+    "stats": {
+      "hp": 1370,
+      "mp": 280,
+      "attack": 630,
+      "defense": 690,
+      "agility": 400,
+      "wisdom": 390
+    }
+  },
+  {
+    "name": "Green Dragon",
+    "stats": {
+      "hp": 1340,
+      "mp": 280,
+      "attack": 630,
+      "defense": 540,
+      "agility": 510,
+      "wisdom": 440
+    }
+  },
+  {
+    "name": "Liege Lizard",
+    "stats": {
+      "hp": 1410,
+      "mp": 280,
+      "attack": 680,
+      "defense": 280,
+      "agility": 510,
+      "wisdom": 320
+    }
+  },
+  {
+    "name": "Dread Dragon",
+    "stats": {
+      "hp": 1350,
+      "mp": 280,
+      "attack": 560,
+      "defense": 570,
+      "agility": 470,
+      "wisdom": 590
+    }
+  },
+  {
+    "name": "Gigantes",
+    "stats": {
+      "hp": 1400,
+      "mp": 270,
+      "attack": 630,
+      "defense": 630,
+      "agility": 430,
+      "wisdom": 280
+    }
+  },
+  {
+    "name": "Feral Slime",
+    "stats": {
+      "hp": 1390,
+      "mp": 270,
+      "attack": 690,
+      "defense": 380,
+      "agility": 430,
+      "wisdom": 450
+    }
+  },
+  {
+    "name": "Wild Slime",
+    "stats": {
+      "hp": 1400,
+      "mp": 270,
+      "attack": 660,
+      "defense": 400,
+      "agility": 440,
+      "wisdom": 430
+    }
+  },
+  {
+    "name": "Drakulard",
+    "stats": {
+      "hp": 1400,
+      "mp": 270,
+      "attack": 610,
+      "defense": 640,
+      "agility": 420,
+      "wisdom": 330
+    }
+  },
+  {
+    "name": "Great Dragon",
+    "stats": {
+      "hp": 1390,
+      "mp": 270,
+      "attack": 620,
+      "defense": 570,
+      "agility": 450,
+      "wisdom": 360
+    }
+  },
+  {
+    "name": "Horrifying Saucers",
+    "stats": {
+      "hp": 1410,
+      "mp": 260,
+      "attack": 630,
+      "defense": 380,
+      "agility": 470,
+      "wisdom": 420
+    }
+  },
+  {
+    "name": "Abyssal Dragon",
+    "stats": {
+      "hp": 1370,
+      "mp": 250,
+      "attack": 590,
+      "defense": 430,
+      "agility": 500,
+      "wisdom": 560
+    }
+  }
+]
