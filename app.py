@@ -20,6 +20,7 @@ st.markdown("---")
 pages = {
     "🏠 Accueil": "accueil",
     "🔍 Recherche de Monstres": "recherche_monstres", 
+    "📦 Objets": "objets",
     "📊 Base de Données": "base_donnees",
     "🧬 Synthèse": "synthese"
 }
@@ -61,6 +62,9 @@ if pages[selected_page] == "accueil":
 elif pages[selected_page] == "recherche_monstres":
     from page import recherche_monstres
     recherche_monstres.show(donnees)
+elif pages[selected_page] == "objets":
+    from page import objets
+    objets.main()
 elif pages[selected_page] == "base_donnees":
     from page import base_donnees
     base_donnees.show(donnees)

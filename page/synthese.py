@@ -399,11 +399,6 @@ def show(donnees):
                             if len(combinaisons) > 50:
                                 combinaisons = combinaisons[:50] + "..."
                             st.write(f"🔗 {combinaisons}")
-                            
-                            # Bouton pour voir l'arbre complet
-                            if st.button(f"🌳 Voir arbre", key=f"tree_{monster_data['key']}"):
-                                st.session_state['show_tree_for'] = monster_data['Monstre']
-                                st.rerun()
                         
                         st.markdown("---")
         

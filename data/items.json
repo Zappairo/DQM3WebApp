@@ -13,6 +13,21 @@
         "buy": 50,
         "sell": 5
     },
+    "special_medicine": {
+        "name": "Special Medicine",
+        "type": "Medicine",
+        "description": "Restores 120 HP to a single ally."
+    },
+    "amor_seco_essence": {
+        "name": "Amor Seco Essence",
+        "type": "Medicine",
+        "description": "Restores 50 to 60 HP to all allies."
+    },
+    "yggdrasil_dew": {
+        "name": "Yggdrasil Dew",
+        "type": "Medicine",
+        "description": "Restores 100 to 120HP to all allies."
+    },
     "single_phial": {
         "name": "Single Phial",
         "type": "Medicine",
@@ -26,6 +41,11 @@
         "description": "Restores 30 MP to a single ally.",
         "buy": 300,
         "sell": 30
+    },
+    "sages_elixir": {
+        "name": "Sage's Elixir",
+        "type": "Medicine",
+        "description": "Restores 90 MP to a single ally."
     },
     "antidotal_herb": {
         "name": "Antidotal Herb",
@@ -59,6 +79,51 @@
         "type": "Medicine",
         "description": "Revives a single fallen ally and restores half of their HP.",
         "sell": 350
+    },
+    "oomph_powder": {
+        "name": "Oomph Powder",
+        "type": "Battle",
+        "description": "Greatly increases the attack of a single ally for 2 to 5 turns."
+    },
+    "buffium": {
+        "name": "Buffium",
+        "type": "Battle",
+        "description": "Greatly increases the defence of a single ally for 4 to 7 turns."
+    },
+    "acceleratonic": {
+        "name": "Acceleratonic",
+        "type": "Battle",
+        "description": "Greatly increases the agility of a single ally for 4 to 7 turns."
+    },
+    "pingium": {
+        "name": "Pingium",
+        "type": "Battle",
+        "description": "Greatly increases the wisdom of a single ally for 4 to 7 turns."
+    },
+    "insulade": {
+        "name": "Insulade",
+        "type": "Battle",
+        "description": "Reduces the damage received by a single ally from breath attacks for 4 to 7 turns."
+    },
+    "sag_powder": {
+        "name": "Sag Powder",
+        "type": "Battle",
+        "description": "Greatly lowers the attack of a single enemy for 2 to 5 turns."
+    },
+    "sapperine": {
+        "name": "Sapperine",
+        "type": "Battle",
+        "description": "Greatly lowers the defence of a single enemy for 4 to 7 turns."
+    },
+    "deceleratonic": {
+        "name": "Deceleratonic",
+        "type": "Battle",
+        "description": "Greatly lowers the agility of a single enemy for 4 to 7 turns."
+    },
+    "dimium": {
+        "name": "Dimium",
+        "type": "Battle",
+        "description": "Greatly lowers the wisdom of a single enemy for 4 to 7 turns."
     },
     "antimagic_powder": {
         "name": "Antimagic Powder",
@@ -100,6 +165,16 @@
         "buy": 100,
         "sell": 10
     },
+    "rarified_steak": {
+        "name": "Rarified Steak",
+        "type": "Food",
+        "description": "Odd offcuts, the origin of which may never be ascertained. Feed it to a monster to increase the likelihood of it wanting to join you by a random factor. Occasionally inflicts a status ailment."
+    },
+    "meaty_treat": {
+        "name": "Meaty Treat",
+        "type": "Food",
+        "description": "A succulent cut that monsters go mad for. Feed to a monster to increase the likelihood of it wanting to join you."
+    },
     "mystery_meat": {
         "name": "Mystery Meat",
         "type": "Food",
@@ -118,11 +193,46 @@
         "description": "A piece of putrid flesh that exudes a sour stennch. Feed to a monster to very slightly increase the likelihood of it wanting to join you, but also poison it in the process.",
         "sell": 5
     },
+    "bonus_ball": {
+        "name": "Bonus Ball",
+        "type": "Treasure",
+        "description": "Increases the amount of experience points and gold coins earned after battle by 1.5x. Effective for 10 battles. Only one of this item can be in effect at any one time."
+    },
+    "bumper_bonus_ball": {
+        "name": "Bumper Bonus Ball",
+        "type": "Treasure",
+        "description": "Increases the amount of experience points and gold coins earned after battle by 2.0x. Effective for 25 battles. Only one of this item can be in effect at any one time."
+    },
+    "metal_slimecard": {
+        "name": "Metal Slimecard",
+        "type": "Treasure",
+        "description": "The timecard of a hardworking metal slime. Provides a small amount of 2000 additional experience points to a single ally."
+    },
+    "liquid_metal_slimecard": {
+        "name": "Liquid Metal Slimecard",
+        "type": "Treasure",
+        "description": "The timecard of an industrious liquid metal slime. Provides additional amount of 10000 additional experience points to a single ally."
+    },
+    "king_metal_slimecard": {
+        "name": "King Metal Slimecard",
+        "type": "Treasure",
+        "description": "The timecard of a workaholic metal slime. Provides a large amount of 70000 additional experience points to a single ally."
+    },
+    "seasoning": {
+        "name": "Seasoning",
+        "type": "Treasure",
+        "description": "A phenomenal powder that hurries the onset of the following season. Cannot be used in places where the season does not normally change."
+    },
     "seed_of_life": {
         "name": "Seed of Life",
         "type": "Treasure",
         "description": "Raises the max. HP of a single ally by 3. Note that each monster type has an upper limit to its max. HP that cannot be exceeded.",
         "sell": 10
+    },
+    "super_seed_of_life": {
+        "name": "Super Seed of Life",
+        "type": "Treasure",
+        "description": "Raises the max. HP of a single ally by 10. Note that each monster type has an upper limit to its max. HP that cannot be exceeded."
     },
     "seed_of_strength": {
         "name": "Seed of Strength",
@@ -130,16 +240,81 @@
         "description": "Raises the attack of a single ally by 3. Note that each monster type has an upper limit to its attack that cannot be exceeded.",
         "sell": 10
     },
+    "super_seed_of_strength": {
+        "name": "Super Seed of Strength",
+        "type": "Treasure",
+        "description": "Raises the attack of a single ally by 10. Note that each monster type has an upper limit to its attack that cannot be exceeded."
+    },
+    "seed_of_resilience": {
+        "name": "Seed of Resilience",
+        "type": "Treasure",
+        "description": "Raises the defence of a single ally by 3. Note that each monster type has an upper limit to its defence that cannot be exceeded."
+    },
+    "super_seed_of_resilience": {
+        "name": "Super Seed of Resilience",
+        "type": "Treasure",
+        "description": "Raises the defence of a single ally by 10. Note that each monster type has an upper limit to its defence that cannot be exceeded."
+    },
     "seed_of_agility": {
         "name": "Seed of Agility",
         "type": "Treasure",
         "description": "Raises the agility of a single ally by 3. Note that each monster type has an upper limit to its agility that cannot be exceeded.",
         "sell": 10
     },
+    "super_seed_of_agility": {
+        "name": "Super Seed of Agility",
+        "type": "Treasure",
+        "description": "Raises the agility of a single ally by 10. Note that each monster type has an upper limit to its agility that cannot be exceeded."
+    },
+    "seed_of_wisdom": {
+        "name": "Seed of Wisdom",
+        "type": "Treasure",
+        "description": "Raises the wisdom of a single ally by 3. Note that each monster type has an upper limit to its wisdom that cannot be exceeded."
+    },
+    "super_seed_of_wisdom": {
+        "name": "Super Seed of Wisdom",
+        "type": "Treasure",
+        "description": "Raises the wisdom of a single ally by 10. Note that each monster type has an upper limit to its wisdom that cannot be exceeded."
+    },
+    "seed_of_magic": {
+        "name": "Seed of Magic",
+        "type": "Treasure",
+        "description": "Raises the max. MP of a single ally by 3. Note that each monster type has an upper limit to its max. MP that cannot be exceeded."
+    },
+    "super_seed_of_magic": {
+        "name": "Super Seed of Magic",
+        "type": "Treasure",
+        "description": "Raises the max. MP of a single ally by 10. Note that each monster type has an upper limit to its max. MP that cannot be exceeded."
+    },
     "seed_of_skill": {
         "name": "Seed of Skill",
         "type": "Treasure",
         "description": "Provides a single ally with 3 additional talent points. Note that a monster can have a maximum of 999 available talent points."
+    },
+    "super_seed_of_skill": {
+        "name": "Super Seed of Skill",
+        "type": "Treasure",
+        "description": "Provides a single ally with 10 additional talent points. Note that a monster can have a maximum of 999 available talent points."
+    },
+    "seed_of_growth": {
+        "name": "Seed of Growth",
+        "type": "Treasure",
+        "description": "Raises the level of a single ally by 1."
+    },
+    "barricades_scroll": {
+        "name": "Barricade's Scroll",
+        "type": "Treasure",
+        "description": "Teaches the Barricade talent."
+    },
+    "defence_boosters_scroll_i": {
+        "name": "Defence Booster's Scroll I",
+        "type": "Treasure",
+        "description": "Teaches the Defence Booster I talent."
+    },
+    "frizz_wards_scroll": {
+        "name": "Frizz Ward's Scroll",
+        "type": "Treasure",
+        "description": "Teaches the Frizz Ward talent."
     },
     "strength_ring": {
         "name": "Strength Ring",
@@ -174,6 +349,31 @@
         },
         "sell": 100
     },
+    "everyday_outfit": {
+        "name": "Everyday Outfit",
+        "type": "Key",
+        "description": "Rugged red apparel that's perfect for everyday wear."
+    },
+    "cake_makers_clobber": {
+        "name": "Cake-Maker's Clobber",
+        "type": "Key",
+        "description": "A pristine white uniform worn by cake creators."
+    },
+    "gothic_vestment": {
+        "name": "Gothic Vestment",
+        "type": "Key",
+        "description": "A classy coat that keeps out the cold."
+    },
+    "monstrous_mail": {
+        "name": "Monstrous Mail",
+        "type": "Key",
+        "description": "Armour with a sinister appearance, worn only by monsterkind's mightiest trendsetters."
+    },
+    "burgundy_gothic_vestment": {
+        "name": "Burgundy Gothic Vestment",
+        "type": "Key",
+        "description": "A classy coat that keeps out the cold. Now available in burgundy!"
+    },
     "mini_medal": {
         "name": "Mini Medal",
         "type": "Key",
@@ -188,5 +388,500 @@
         "name": "Yellow Travelite",
         "type": "Key",
         "description": "A yellow crystal that was forged by the ancient elves. It contains a magical energy that allows travel to previously inaccessible areas of Nadiria."
+    },
+    "green_travelite": {
+        "name": "Green Travelite",
+        "type": "Key",
+        "description": "A green crystal that was forged by ancient elves. It contains a magical energy that allows travel to previously inaccessible areas of Nadiria."
+    },
+    "indigo_travelite": {
+        "name": "Indigo Travelite",
+        "type": "Key",
+        "description": "An indigo crystal that was forged by ancient elves. It contains a magical energy that allows travel to previously inaccessible areas of Nadiria."
+    },
+    "pink_travelite": {
+        "name": "Pink Travelite",
+        "type": "Key",
+        "description": "A pink crystal that was forged by ancient elves. It contains a magical energy that allows travel to previously inaccessible areas of Nadiria."
+    },
+    "purple_travelite": {
+        "name": "Purple Travelite",
+        "type": "Key",
+        "description": "A purple crystal that was forged by ancient elves. It contains a magical energy that allows travel to previously inaccessible areas of Nadiria."
+    },
+    "helipad": {
+        "name": "HeliPad",
+        "type": "Key",
+        "description": "A convenient communications contraption conceived by Dr Helix Helix himself. It seems everyone has one these days."
+    },
+    "aerofoil_amulet": {
+        "name": "Aerofoil Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Woosh Ward"
+    },
+    "aerofoil_armband": {
+        "name": "Aerofoil Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Woosher"
+    },
+    "aerofoil_belt": {
+        "name": "Aerofoil Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Woosher"
+    },
+    "aerofoil_earrings": {
+        "name": "Aerofoil Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Woosh Ward"
+    },
+    "agility_ring": {
+        "name": "Agility Ring",
+        "type": "Accessory",
+        "description": "Agility＋60"
+    },
+    "alarming_amulet": {
+        "name": "Alarming Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10,Insomniac"
+    },
+    "alarming_belt": {
+        "name": "Alarming Belt",
+        "type": "Accessory",
+        "description": "Defence＋40,Insomniac"
+    },
+    "all_weather_earrings": {
+        "name": "All-Weather Earrings",
+        "type": "Accessory",
+        "description": "Defence＋10, Crack Ward, Woosh Ward"
+    },
+    "amulet_of_clarity": {
+        "name": "Amulet of Clarity",
+        "type": "Accessory",
+        "description": "Defence＋10, Clear Thinker"
+    },
+    "amulet_of_immunity": {
+        "name": "Amulet of Immunity",
+        "type": "Accessory",
+        "description": "Defence+10, Antioxidant"
+    },
+    "amulet_of_vigour": {
+        "name": "Amulet of Vigour",
+        "type": "Accessory",
+        "description": "Defence＋10, Granite Chin"
+    },
+    "anti_freeze_amulet": {
+        "name": "Anti-Freeze Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Crack Ward"
+    },
+    "anti_freeze_armband": {
+        "name": "Anti-Freeze Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Cracker"
+    },
+    "anti_freeze_belt": {
+        "name": "Anti-Freeze Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Cracker"
+    },
+    "anti_freeze_earrings": {
+        "name": "Anti-Freeze Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Crack Ward"
+    },
+    "argon_ring": {
+        "name": "Argon Ring",
+        "type": "Accessory",
+        "description": "Attack＋30, Agility＋40, Max HP＋30"
+    },
+    "asbestos_amulet": {
+        "name": "Asbestos Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10,Frizz Ward"
+    },
+    "asbestos_armband": {
+        "name": "Asbestos Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Frizzer"
+    },
+    "asbestos_belt": {
+        "name": "Asbestos Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Frizzer"
+    },
+    "asbestos_earrings": {
+        "name": "Asbestos Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40,Frizz Ward"
+    },
+    "blackout_earrings": {
+        "name": "Blackout Earrings",
+        "type": "Accessory",
+        "description": "Defence＋10, Zap Ward, Sizz Ward"
+    },
+    "blast_proof_amulet": {
+        "name": "Blast-Proof Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Bang Ward"
+    },
+    "blast_proof_amulet_plus": {
+        "name": "Blast-Proof Amulet+",
+        "type": "Accessory",
+        "description": "Defence +20, Bang Ward"
+    },
+    "blast_proof_armband": {
+        "name": "Blast-Proof Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Banger"
+    },
+    "blast_proof_belt": {
+        "name": "Blast-Proof Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Banger"
+    },
+    "blast_proof_earrings": {
+        "name": "Blast-Proof Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Bang Ward"
+    },
+    "bunny_tail": {
+        "name": "Bunny Tail",
+        "type": "Accessory",
+        "description": "Agility＋30"
+    },
+    "care_ring": {
+        "name": "Care Ring",
+        "type": "Accessory",
+        "description": "Max HP＋30, Defence＋30, Auto-Restora"
+    },
+    "cinderblock_earrings": {
+        "name": "Cinderblock Earrings",
+        "type": "Accessory",
+        "description": "Defence＋10,Frizz Ward, Crag Ward"
+    },
+    "concrete_amulet": {
+        "name": "Concrete Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Crag Ward"
+    },
+    "concrete_armband": {
+        "name": "Concrete Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Cragger"
+    },
+    "concrete_belt": {
+        "name": "Concrete Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Cragger"
+    },
+    "concrete_earrings": {
+        "name": "Concrete Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Crag Ward"
+    },
+    "cupcake_cane": {
+        "name": "Cupcake Cane",
+        "type": "Accessory",
+        "description": "Gold Panner, Iota Experience, Rummager"
+    },
+    "dancers_ring": {
+        "name": "Dancer's Ring",
+        "type": "Accessory",
+        "description": "Agility＋10, Max MP＋10, Artful Dodger"
+    },
+    "demons_ring": {
+        "name": "Demon's Ring",
+        "type": "Accessory",
+        "description": "Attack＋30, Agility＋30, Critical Favorite"
+    },
+    "dogged_collar": {
+        "name": "Dogged Collar",
+        "type": "Accessory",
+        "description": "Attack＋15, Defence＋15, Max HP＋15"
+    },
+    "dragon_scale": {
+        "name": "Dragon Scale",
+        "type": "Accessory",
+        "description": "Attack＋10, Agility＋10, Max HP＋10"
+    },
+    "earthwyrms_eye": {
+        "name": "Earthwyrm's Eye",
+        "type": "Accessory",
+        "description": "Defence＋100"
+    },
+    "endurance_amulet": {
+        "name": "Endurance Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Death Defier"
+    },
+    "full_moon_amulet": {
+        "name": "Full Moon Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Fidget"
+    },
+    "full_moon_ring": {
+        "name": "Full Moon Ring",
+        "type": "Accessory",
+        "description": "Defence＋40, Fidget"
+    },
+    "glow_in_the_dark_amulet": {
+        "name": "Glow-In-The-Dark Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Zam Ward"
+    },
+    "glow_in_the_dark_armband": {
+        "name": "Glow-In-The-Dark Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Zammer"
+    },
+    "glow_in_the_dark_belt": {
+        "name": "Glow-In-The-Dark Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Zammer"
+    },
+    "glow_in_the_dark_belt_plus": {
+        "name": "Glow-in-the-Dark Belt+",
+        "type": "Accessory",
+        "description": "Attack +20, Crafty Zammer"
+    },
+    "glow_in_the_dark_earrings": {
+        "name": "Glow-In-The-Dark Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Zam Ward"
+    },
+    "goddess_ring": {
+        "name": "Goddess Ring",
+        "type": "Accessory",
+        "description": "Max MP＋30, Wisdom＋30, Auto-Cadabra"
+    },
+    "hermits_girdle": {
+        "name": "Hermit's Girdle",
+        "type": "Accessory",
+        "description": "Attack＋15, Agility＋15, Max HP＋15"
+    },
+    "heros_cloak": {
+        "name": "Hero's Cloak",
+        "type": "Accessory",
+        "description": "Attack＋10, Defence＋10, Max HP＋30, Bang Ward, Crack Ward,Frizz Ward"
+    },
+    "leather_collar": {
+        "name": "Leather Collar",
+        "type": "Accessory",
+        "description": "Attack＋10, Defence＋10, Max HP＋10"
+    },
+    "mages_ring": {
+        "name": "Mage's Ring",
+        "type": "Accessory",
+        "description": "Wisdom＋10, Max MP＋10, Critical Thinker"
+    },
+    "master_thiefs_monocle": {
+        "name": "Master Thief's Monocle",
+        "type": "Accessory",
+        "description": "Agility＋10, Wisdom＋10, Max MP＋10"
+    },
+    "meteorite_bracer": {
+        "name": "Meteorite Bracer",
+        "type": "Accessory",
+        "description": "Agility＋100"
+    },
+    "mighty_amulet": {
+        "name": "Mighty Amulet",
+        "type": "Accessory",
+        "description": "Attack＋100"
+    },
+    "mirror_amulet": {
+        "name": "Mirror Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Sizz Ward"
+    },
+    "mirror_armband": {
+        "name": "Mirror Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Sizzer"
+    },
+    "mirror_belt": {
+        "name": "Mirror Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Sizzer"
+    },
+    "mirror_earrings": {
+        "name": "Mirror Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Sizz Ward"
+    },
+    "phantom_cloak": {
+        "name": "Phantom Cloak",
+        "type": "Accessory",
+        "description": "Agility＋30, Wisdom＋40, Max MP＋30"
+    },
+    "pickpockets_poncho": {
+        "name": "Pickpocket's Poncho",
+        "type": "Accessory",
+        "description": "Agility＋15, Wisdom＋15, Max MP＋15"
+    },
+    "priests_ring": {
+        "name": "Priest's Ring",
+        "type": "Accessory",
+        "description": "Wisdom＋10, Max MP＋10, Auto-Cadabra"
+    },
+    "quick_ring_plus": {
+        "name": "Quick Ring+",
+        "type": "Accessory",
+        "description": "Agility +20"
+    },
+    "raging_ruby": {
+        "name": "Raging Ruby",
+        "type": "Accessory",
+        "description": "Attack＋60"
+    },
+    "ring_of_clarity": {
+        "name": "Ring of Clarity",
+        "type": "Accessory",
+        "description": "Defence＋40, Clear Thinker"
+    },
+    "ring_of_immunity": {
+        "name": "Ring of Immunity",
+        "type": "Accessory",
+        "description": "Defence＋40, Antioxidant"
+    },
+    "ring_of_protection": {
+        "name": "Ring of Protection",
+        "type": "Accessory",
+        "description": "Defence+10"
+    },
+    "ring_of_wisdom_plus": {
+        "name": "Ring of Wisdom+",
+        "type": "Accessory",
+        "description": "Wisdom +20"
+    },
+    "rubber_amulet": {
+        "name": "Rubber Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Zap Ward"
+    },
+    "rubber_armband": {
+        "name": "Rubber Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Zapper"
+    },
+    "rubber_belt": {
+        "name": "Rubber Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Zapper"
+    },
+    "rubber_earrings": {
+        "name": "Rubber Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Zap Ward"
+    },
+    "ruby_of_protection": {
+        "name": "Ruby of Protection",
+        "type": "Accessory",
+        "description": "Defence＋60"
+    },
+    "scavengers_badge": {
+        "name": "Scavenger's Badge",
+        "type": "Accessory",
+        "description": "Scavenger"
+    },
+    "scavengers_medal": {
+        "name": "Scavenger's Medal",
+        "type": "Accessory",
+        "description": "Hoarder"
+    },
+    "scholars_specs": {
+        "name": "Scholar's Specs",
+        "type": "Accessory",
+        "description": "Wisdom＋30"
+    },
+    "scuba_earrings": {
+        "name": "Scuba Earrings",
+        "type": "Accessory",
+        "description": "Defence＋10, Splish Ward, Zam Ward"
+    },
+    "seers_ring": {
+        "name": "Seer's Ring",
+        "type": "Accessory",
+        "description": "Agility＋30, Max MP＋30, Artful Dodger"
+    },
+    "seers_ring_plus": {
+        "name": "Seer's Ring+",
+        "type": "Accessory",
+        "description": "Agility +40, Max. MP +30, Artful Dodger"
+    },
+    "silver_tiara": {
+        "name": "Silver Tiara",
+        "type": "Accessory",
+        "description": "Defence＋10, Wisdom＋10, Max MP＋10"
+    },
+    "slime_earrings": {
+        "name": "Slime Earrings",
+        "type": "Accessory",
+        "description": "Defence＋30"
+    },
+    "sock_it_locket": {
+        "name": "Sock-It Locket",
+        "type": "Accessory",
+        "description": "Wisdom＋100"
+    },
+    "spirit_bracer": {
+        "name": "Spirit Bracer",
+        "type": "Accessory",
+        "description": "Wisdom＋60"
+    },
+    "stardust_earrings": {
+        "name": "Stardust Earrings",
+        "type": "Accessory",
+        "description": "Defence＋10, Agility＋10, Max HP＋10"
+    },
+    "strength_ring_plus": {
+        "name": "Strength Ring+",
+        "type": "Accessory",
+        "description": "Attack +20"
+    },
+    "tough_guy_tattoo": {
+        "name": "Tough Guy Tattoo",
+        "type": "Accessory",
+        "description": "Attack＋30"
+    },
+    "trainees_badge": {
+        "name": "Trainee's Badge",
+        "type": "Accessory",
+        "description": "Increases the amount of experience gained."
+    },
+    "trainees_medal": {
+        "name": "Trainee's Medal",
+        "type": "Accessory",
+        "description": "Greatly increases the amount of experience gained."
+    },
+    "warriors_ring": {
+        "name": "Warrior's Ring",
+        "type": "Accessory",
+        "description": "Attack＋10, Defence＋10, Auto-Restora"
+    },
+    "waterproof_amulet": {
+        "name": "Waterproof Amulet",
+        "type": "Accessory",
+        "description": "Defence＋10, Splish Ward"
+    },
+    "waterproof_armband": {
+        "name": "Waterproof Armband",
+        "type": "Accessory",
+        "description": "Attack＋40, Crafty Splisher"
+    },
+    "waterproof_belt": {
+        "name": "Waterproof Belt",
+        "type": "Accessory",
+        "description": "Attack＋10, Crafty Splisher"
+    },
+    "waterproof_earrings": {
+        "name": "Waterproof Earrings",
+        "type": "Accessory",
+        "description": "Defence＋40, Splish Ward"
+    },
+    "witchs_brooch": {
+        "name": "Witch's Brooch",
+        "type": "Accessory",
+        "description": "Max MP＋10, MP Cost Reduction"
     }
 }

@@ -1,6 +1,10 @@
 import streamlit as st
 from PIL import Image
 import os
+import base64
+from io import BytesIO
+from urllib.parse import quote
+import json
 
 def get_maxstats(monstre_name, maxstats_data):
     """Obtenir les statistiques maximales d'un monstre"""
@@ -8,6 +12,84 @@ def get_maxstats(monstre_name, maxstats_data):
         if monster["name"].lower() == monstre_name.lower():
             return monster["stats"]
     return None
+
+def charger_items():
+    """Charger les données des objets depuis le fichier JSON"""
+    try:
+        with open("data/items.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def objet_existe(item_name):
+    """Vérifier si un objet existe dans la base de données"""
+    items_data = charger_items()
+    # Vérifier d'abord par clé, puis par nom
+    if item_name in items_data:
+        return True
+    # Vérifier par nom d'affichage
+    for key, data in items_data.items():
+        if data.get("name", key) == item_name:
+            return True
+    return False
+
+def obtenir_nom_objet(item_key):
+    """Obtenir le nom d'affichage d'un objet à partir de sa clé"""
+    items_data = charger_items()
+    if item_key in items_data:
+        return items_data[item_key].get("name", item_key)
+    return item_key
+
+def trouver_cle_objet(item_name):
+    """Trouver la clé d'un objet à partir de son nom"""
+    items_data = charger_items()
+    # Vérifier d'abord par clé
+    if item_name in items_data:
+        return item_name
+    # Vérifier par nom d'affichage
+    for key, data in items_data.items():
+        if data.get("name", key) == item_name:
+            return key
+    return None
+
+def creer_lien_objet(item_name):
+    """Créer un bouton cliquable vers la page des objets"""
+    if item_name and item_name != "Aucun" and objet_existe(item_name):
+        return f'<span style="color: #1f77b4; text-decoration: underline; cursor: pointer;" onclick="console.log(\'{item_name}\')">{item_name} 🔗</span>'
+    return item_name
+
+def afficher_objet_detail(item_key):
+    """Afficher les détails d'un objet avec le format des résistances"""
+    items_data = charger_items()
+    if item_key in items_data:
+        item_data = items_data[item_key]
+        item_name = item_data.get("name", item_key)
+        
+        # Format similaire aux résistances avec icône
+        st.markdown(f"""
+        <div style="display: flex; align-items: center; margin-bottom: 20px; padding: 15px; border: 2px solid #444; border-radius: 10px; background-color: rgba(255,255,255,0.05);">
+            <span style="font-size: 30px; margin-right: 15px;">📦</span>
+            <div style="flex: 1;">
+                <div style="font-size: 20px; font-weight: bold; color: var(--text-color); margin-bottom: 5px;">{item_name}</div>
+                <div style="color: #888; font-size: 14px;">Type: {item_data.get("type", "Inconnu")}</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Description
+        if "description" in item_data and item_data["description"]:
+            st.write("**Description :**")
+            st.info(item_data["description"])
+        else:
+            st.info("Aucune description disponible")
+    else:
+        st.error(f"Objet '{item_key}' introuvable")
+    
+    # Retour à la recherche
+    if st.button("🔙 Retour à la recherche de monstres"):
+        st.session_state.show_item_page = False
+        st.session_state.selected_item = None
+        st.rerun()
 
 def get_monstre(nom, monstres):
     """Rechercher un monstre par son nom"""
@@ -125,8 +207,50 @@ def afficher_image_monstre(nom):
     
     return None
 
-def show_synthesis_images(synthesis_items):
-    """Afficher les images de synthèse"""
+def get_family_icon(family_key):
+    """Obtenir l'icône d'une famille"""
+    if not family_key:
+        return None
+    
+    # Enlever le préfixe _ si présent
+    family_name = family_key.replace("_", "")
+    
+    icon_path = os.path.join("data/FamilyIcons", f"{family_name}.png")
+    if os.path.exists(icon_path):
+        return Image.open(icon_path)
+    
+    return None
+
+def get_rank_icon(rank):
+    """Obtenir l'icône d'un rang"""
+    if not rank:
+        return None
+    
+    icon_path = os.path.join("data/RankIcons", f"{rank}.png")
+    if os.path.exists(icon_path):
+        return Image.open(icon_path)
+    
+    return None
+
+def get_resistance_icon(resistance_key):
+    """Obtenir l'icône d'une résistance"""
+    if not resistance_key:
+        return None
+    
+    # Correspondance pour les noms d'icônes spéciaux
+    icon_mapping = {
+        "instant_death": "death"
+    }
+    
+    icon_name = icon_mapping.get(resistance_key, resistance_key)
+    icon_path = os.path.join("data/ResistanceIcons", f"{icon_name}.png")
+    if os.path.exists(icon_path):
+        return Image.open(icon_path)
+    
+    return None
+
+def show_synthesis_images(synthesis_items, families_data):
+    """Afficher les images de synthèse avec icônes"""
     if not synthesis_items:
         return
     
@@ -145,11 +269,21 @@ def show_synthesis_images(synthesis_items):
                 else:
                     st.info(f"Image: {item['name']}")
             elif item["type"] == "family":
-                # Afficher la famille
-                st.info(f"Famille: {item['name']}")
+                # Afficher seulement l'icône de la famille
+                family_icon = get_family_icon(item["key"])
+                if family_icon:
+                    st.image(family_icon, width=80, caption=f"Famille {item['name']}")
+                else:
+                    st.info(f"Famille: {item['name']}")
 
 def show(donnees):
     st.title("Recherche de Monstres")
+    
+    # Vérifier si on doit afficher les détails d'un objet
+    if 'show_item_page' in st.session_state and st.session_state.show_item_page:
+        if 'selected_item' in st.session_state and st.session_state.selected_item:
+            afficher_objet_detail(st.session_state.selected_item)
+            return
     
     # Initialiser la session state pour la recherche
     if 'search_query' not in st.session_state:
@@ -193,67 +327,102 @@ def show(donnees):
         with col_info:
             st.subheader(f"{monstre['name']}")
             
-            # Informations de base
-            family_name = donnees["families"].get(monstre.get("family", ""), {}).get("name", "Inconnue")
+            # Informations de base avec icônes en ligne
+            family_key = monstre.get("family", "")
+            family_name = donnees["families"].get(family_key, {}).get("name", "Inconnue")
+            rank = monstre.get('rank', '?')
             
-            col_base1, col_base2, col_base3 = st.columns(3)
-            with col_base1:
+            # Obtenir les icônes
+            family_icon = get_family_icon(family_key)
+            rank_icon = get_rank_icon(rank)
+            
+            # Affichage compact en une seule ligne
+            col_num, col_rank, col_family = st.columns([1, 1.5, 1.5])
+            
+            with col_num:
                 st.metric("Numéro", monstre.get('number', '?'))
-            with col_base2:
-                st.metric("Rang", monstre.get('rank', '?'))
-            with col_base3:
-                st.metric("Famille", family_name)
+            
+            with col_rank:
+                # Afficher seulement l'icône du rang
+                if rank_icon:
+                    # Convertir l'image en base64 pour l'affichage HTML
+                    buffered = BytesIO()
+                    rank_icon.save(buffered, format="PNG")
+                    img_str = base64.b64encode(buffered.getvalue()).decode()
+                    
+                    st.markdown(f"""
+                    <div style="text-align: center;">
+                        <div style="font-size: 14px; color: var(--text-color); margin-bottom: 5px;">Rang</div>
+                        <img src="data:image/png;base64,{img_str}" width="40" style="display: block; margin: 0 auto;">
+                    </div>
+                    """, unsafe_allow_html=True)
+                else:
+                    st.metric("Rang", rank)
+            
+            with col_family:
+                # Afficher seulement l'icône de la famille
+                if family_icon:
+                    # Convertir l'image en base64 pour l'affichage HTML
+                    buffered = BytesIO()
+                    family_icon.save(buffered, format="PNG")
+                    img_str = base64.b64encode(buffered.getvalue()).decode()
+                    
+                    st.markdown(f"""
+                    <div style="text-align: center;">
+                        <div style="font-size: 14px; color: var(--text-color); margin-bottom: 5px;">Famille</div>
+                        <img src="data:image/png;base64,{img_str}" width="40" style="display: block; margin: 0 auto;">
+                    </div>
+                    """, unsafe_allow_html=True)
+                else:
+                    st.metric("Famille", family_name)
             
             # Description
             if monstre.get('description'):
                 st.write("**Description:**")
                 st.write(monstre['description'])
 
-        # Gain de statistiques par niveau
-        st.subheader("Gain de statistiques par niveau")
-        growth = monstre.get("growth", {})
-        if growth is not None:
-            col1, col2, col3, col4, col5, col6 = st.columns(6)
-            with col1:
-                st.metric("HP", growth.get('hp', '?'))
-            with col2:
-                st.metric("MP", growth.get('mp', '?'))
-            with col3:
-                st.metric("ATK", growth.get('atk', '?'))
-            with col4:
-                st.metric("DEF", growth.get('def', '?'))
-            with col5:
-                st.metric("AGI", growth.get('agi', '?'))
-            with col6:
-                st.metric("WIS", growth.get('wis', '?'))
-        else:
-            st.info("Données de croissance non disponibles")
+        # Statistiques - Max à gauche, Croissance à droite
+        col_stats_max, col_stats_growth = st.columns(2)
         
-        # Statistiques maximales
-        st.subheader("Statistiques maximales")
-        maxstats = get_maxstats(monstre["name"], donnees.get("maxstats", []))
-        if maxstats:
-            col1, col2, col3, col4, col5, col6 = st.columns(6)
-            with col1:
-                st.metric("HP Max", maxstats.get('hp', '?'), 
-                         help="Points de vie maximum")
-            with col2:
-                st.metric("MP Max", maxstats.get('mp', '?'), 
-                         help="Points de magie maximum")
-            with col3:
-                st.metric("ATK Max", maxstats.get('attack', '?'), 
-                         help="Attaque maximum")
-            with col4:
-                st.metric("DEF Max", maxstats.get('defense', '?'), 
-                         help="Défense maximum")
-            with col5:
-                st.metric("AGI Max", maxstats.get('agility', '?'), 
-                         help="Agilité maximum")
-            with col6:
-                st.metric("WIS Max", maxstats.get('wisdom', '?'), 
-                         help="Sagesse maximum")
-        else:
-            st.info("Statistiques maximales non disponibles pour ce monstre")
+        with col_stats_max:
+            st.subheader("Statistiques maximales")
+            maxstats = get_maxstats(monstre["name"], donnees.get("maxstats", []))
+            if maxstats:
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("HP Max", maxstats.get('hp', '?'), 
+                             help="Points de vie maximum")
+                    st.metric("ATK Max", maxstats.get('attack', '?'), 
+                             help="Attaque maximum")
+                with col2:
+                    st.metric("MP Max", maxstats.get('mp', '?'), 
+                             help="Points de magie maximum")
+                    st.metric("DEF Max", maxstats.get('defense', '?'), 
+                             help="Défense maximum")
+                with col3:
+                    st.metric("AGI Max", maxstats.get('agility', '?'), 
+                             help="Agilité maximum")
+                    st.metric("WIS Max", maxstats.get('wisdom', '?'), 
+                             help="Sagesse maximum")
+            else:
+                st.info("Statistiques maximales non disponibles pour ce monstre")
+
+        with col_stats_growth:
+            st.subheader("Gain par niveau")
+            growth = monstre.get("growth", {})
+            if growth is not None:
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("HP", growth.get('hp', '?'))
+                    st.metric("ATK", growth.get('atk', '?'))
+                with col2:
+                    st.metric("MP", growth.get('mp', '?'))
+                    st.metric("DEF", growth.get('def', '?'))
+                with col3:
+                    st.metric("AGI", growth.get('agi', '?'))
+                    st.metric("WIS", growth.get('wis', '?'))
+            else:
+                st.info("Données de croissance non disponibles")
         
         # Talents et Skills
         st.subheader("Talents et Compétences")
@@ -321,18 +490,84 @@ def show(donnees):
         st.subheader("Résistances")
         resistances = monstre.get("resistances", {})
         if resistances is not None:
-            resistance_data = []
-            for res_key, value in resistances.items():
-                res_name = donnees["resistances"].get(res_key, {}).get("name", res_key)
-                symbol = "+" if value > 0 else ""
-                color = "[+]" if value > 0 else "[-]" if value < 0 else "[=]"
-                resistance_data.append([f"{color} {res_name}", f"{symbol}{value}%"])
+            # Organiser les résistances en deux colonnes
+            resistance_items = list(resistances.items())
             
-            # Afficher en colonnes
-            cols = st.columns(4)
-            for i, (name, value) in enumerate(resistance_data):
-                with cols[i % 4]:
-                    st.write(f"{name}: **{value}**")
+            # Créer deux colonnes principales
+            col1, col2 = st.columns(2)
+            
+            # Diviser les résistances en deux groupes
+            mid_point = len(resistance_items) // 2 + (len(resistance_items) % 2)
+            left_resistances = resistance_items[:mid_point]
+            right_resistances = resistance_items[mid_point:]
+            
+            # Colonne gauche
+            with col1:
+                resistance_html_left = ""
+                for res_key, value in left_resistances:
+                    res_name = donnees["resistances"].get(res_key, {}).get("name", res_key)
+                    resistance_icon = get_resistance_icon(res_key)
+                    
+                    # Déterminer la couleur en fonction de la valeur
+                    if value > 0:
+                        color = "#4CAF50"  # Vert pour résistance positive
+                        symbol = "+"
+                    elif value < 0:
+                        color = "#F44336"  # Rouge pour faiblesse
+                        symbol = ""
+                    else:
+                        color = "#9E9E9E"  # Gris pour neutre
+                        symbol = ""
+                    
+                    if resistance_icon:
+                        # Convertir l'image en base64
+                        buffered = BytesIO()
+                        resistance_icon.save(buffered, format="PNG")
+                        img_str = base64.b64encode(buffered.getvalue()).decode()
+                        
+                        resistance_html_left += f"""
+                        <div style="display: flex; align-items: center; margin-bottom: 8px; padding: 5px; border: 1px solid #444; border-radius: 5px;">
+                            <img src="data:image/png;base64,{img_str}" width="24" style="margin-right: 10px;">
+                            <span style="color: var(--text-color); flex: 1;">{res_name}</span>
+                            <span style="font-weight: bold; color: {color}; background-color: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 3px;">{symbol}{value}</span>
+                        </div>
+                        """
+                
+                st.markdown(resistance_html_left, unsafe_allow_html=True)
+            
+            # Colonne droite
+            with col2:
+                resistance_html_right = ""
+                for res_key, value in right_resistances:
+                    res_name = donnees["resistances"].get(res_key, {}).get("name", res_key)
+                    resistance_icon = get_resistance_icon(res_key)
+                    
+                    # Déterminer la couleur en fonction de la valeur
+                    if value > 0:
+                        color = "#4CAF50"  # Vert pour résistance positive
+                        symbol = "+"
+                    elif value < 0:
+                        color = "#F44336"  # Rouge pour faiblesse
+                        symbol = ""
+                    else:
+                        color = "#9E9E9E"  # Gris pour neutre
+                        symbol = ""
+                    
+                    if resistance_icon:
+                        # Convertir l'image en base64
+                        buffered = BytesIO()
+                        resistance_icon.save(buffered, format="PNG")
+                        img_str = base64.b64encode(buffered.getvalue()).decode()
+                        
+                        resistance_html_right += f"""
+                        <div style="display: flex; align-items: center; margin-bottom: 8px; padding: 5px; border: 1px solid #444; border-radius: 5px;">
+                            <img src="data:image/png;base64,{img_str}" width="24" style="margin-right: 10px;">
+                            <span style="color: var(--text-color); flex: 1;">{res_name}</span>
+                            <span style="font-weight: bold; color: {color}; background-color: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 3px;">{symbol}{value}</span>
+                        </div>
+                        """
+                
+                st.markdown(resistance_html_right, unsafe_allow_html=True)
         else:
             st.info("Données de résistances non disponibles")
         
@@ -342,9 +577,34 @@ def show(donnees):
         if drops is not None:
             col_normal, col_rare = st.columns(2)
             with col_normal:
-                st.write(f"**Normal:** {drops.get('normal', 'Aucun')}")
+                st.write("**Normal:**")
+                normal_drop = drops.get('normal', 'Aucun')
+                if normal_drop and normal_drop != "Aucun" and objet_existe(normal_drop):
+                    # Obtenir le vrai nom de l'objet pour l'affichage
+                    display_name = obtenir_nom_objet(normal_drop)
+                    if st.button(f"📦 {display_name}", key=f"normal_drop_{normal_drop}"):
+                        st.session_state.selected_item = normal_drop
+                        st.session_state.show_item_page = True
+                        st.rerun()
+                else:
+                    # Si l'objet n'existe pas, essayer d'afficher le nom quand même
+                    display_name = obtenir_nom_objet(normal_drop)
+                    st.write(display_name)
+                    
             with col_rare:
-                st.write(f"**Rare:** {drops.get('rare', 'Aucun')}")
+                st.write("**Rare:**")
+                rare_drop = drops.get('rare', 'Aucun')
+                if rare_drop and rare_drop != "Aucun" and objet_existe(rare_drop):
+                    # Obtenir le vrai nom de l'objet pour l'affichage
+                    display_name = obtenir_nom_objet(rare_drop)
+                    if st.button(f"📦 {display_name}", key=f"rare_drop_{rare_drop}"):
+                        st.session_state.selected_item = rare_drop
+                        st.session_state.show_item_page = True
+                        st.rerun()
+                else:
+                    # Si l'objet n'existe pas, essayer d'afficher le nom quand même
+                    display_name = obtenir_nom_objet(rare_drop)
+                    st.write(display_name)
         else:
             st.info("Aucun drop disponible")
         
@@ -354,7 +614,7 @@ def show(donnees):
         
         if synthesis_items:
             st.write(synthesis_info)
-            show_synthesis_images(synthesis_items)
+            show_synthesis_images(synthesis_items, donnees["families"])
         else:
             st.info("Aucune synthèse disponible")
     
