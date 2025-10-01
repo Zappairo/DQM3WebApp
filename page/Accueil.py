@@ -53,4 +53,4 @@ def show():
     """)
     
     st.markdown("---")
-    st.markdown("*Créé par G.B pour les fans de Dragon Quest Monsters*")
+    st.markdown("*Créé par G.B - Zappairo*")
